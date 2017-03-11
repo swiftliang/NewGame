@@ -11,4 +11,4 @@ level.prototype.unlock = function(star) {
 
 level.prototype.toString = function() {
     this.levels.toString();
-}
+};
