@@ -1,0 +1,7 @@
+[
+  ["id", "名称", "英文名称", "描述", "英文描述", "价格"],
+  ["id", "name", "englishname", "desc", "englishdesc", "price"],
+  ["1", "冰", "ice", "desc", "englishdesc", "300"],
+  ["2", "火", "fire", "desc", "englishdesc", "400"],
+  ["3", "雷", "thruder", "desc", "englishdesc", "500"]
+]
