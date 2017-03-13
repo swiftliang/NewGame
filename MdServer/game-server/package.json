@@ -1,9 +1,11 @@
 {
-    "name":"MdServer",
-    "version":"0.0.1",
-    "private":false,
-    "dependencies":{
-        "pomelo":"1.2.3"
-    }
+  "name": "MdServer",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "pomelo": "1.2.3",
+    "pomelo-logger": ">=0.0.3",
+    "pomelo-sync-plugin": ">=0.0.1"
+  }
 }
-

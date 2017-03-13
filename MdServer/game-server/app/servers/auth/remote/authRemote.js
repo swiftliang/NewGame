@@ -1,6 +1,6 @@
 var tokenService = require('../../../../../shared/token');
 var userDao = require('../../../dao/userDao');
-var Code = require('../../../../../shared/code');
+var Code = require('../../../../consts/code');
 
 var DEFAULT_SECRET = 'MDServer_session_secret';
 var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
@@ -35,7 +35,7 @@ pro.auth = function(token, cb) {
             cb(err);
             return;
         }
-        cb(null, Code.OK, user);
+        cb(null, Code.SUCCESS, user);
     })
 };
 

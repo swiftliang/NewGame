@@ -1,6 +1,6 @@
 var pomelo = require('pomelo');
 var sync = require('pomelo-sync-plugin');
-
+var PlayerManager = require('./domain/PlayerManager');
 /**
  * Init app for client.
  */
