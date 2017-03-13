@@ -14,6 +14,10 @@ PlayerManager.prototype.add = function(uid, val) {
     this.players[uid] = val;
 };
 
+PlayerManager.prototype.get = function(uid) {
+    return this.players[uid];
+};
+
 PlayerManager.prototype.remove = function(uid) {
     delete this.players[uid];
 };

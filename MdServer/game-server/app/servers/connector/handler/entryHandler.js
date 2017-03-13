@@ -124,12 +124,35 @@ Handler.prototype.StartGame = function(msg, session, next) {
 };
 
 Handler.prototype.AddStar = function(msg, session, next) {
-	var result = {
-
-	};
+	var player = self.app.PlayerManager.get(session.uid);
+	var result;
+	if(!player) {
+		player.stars += msg.star;
+		result = {
+			code: Code.SUCCESS,
+			star: player.stars
+		};
+	} else {
+		result = {
+			code: Code.DATA_ERROR
+		};
+	}
 	next(null, result);
 };
 
 Handler.prototype.AddIcon = function(msg, session, next) {
+	var player = self.app.PlayerManager.get(session.uid);
+	var result;
+	if(!player) {
+		player.coin += msg.coin;
+		result = {
+			code: Code.SUCCESS,
+			star: player.coin
+		};
+	} else {
+		result = {
+			code: Code.DATA_ERROR
+		};
+	}
 	next(null, result);
 };
