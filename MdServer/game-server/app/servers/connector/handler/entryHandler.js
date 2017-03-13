@@ -123,15 +123,18 @@ Handler.prototype.StartGame = function(msg, session, next) {
 	next(null, result);
 };
 
-Handler.prototype.AddStar = function(msg, session, next) {
+Handler.prototype.UnlockLevel = function(msg, session, next) {
 	var player = self.app.PlayerManager.get(session.uid);
 	var result;
 	if(!player) {
 		player.stars += msg.star;
+		player.levels.push(msg.level);
 		result = {
 			code: Code.SUCCESS,
-			star: player.stars
+			star: player.stars,
+			level: player.levels.toString()
 		};
+		player.level();
 	} else {
 		result = {
 			code: Code.DATA_ERROR

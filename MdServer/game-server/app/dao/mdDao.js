@@ -41,7 +41,7 @@ var createPlayer = function(MdGame) {
     player.on('coin', function() {
         app.get('sync').exec('coinSync.updateCoin', player.uid, player);
     });
-    player.on('star', function() {
+    player.on('level', function() {
         app.get('sync').exec('starSync.updateCoin', player.uid, player);
     });
     return player;
