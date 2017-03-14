@@ -1,3 +1,8 @@
 MdServer/game-server/node_modules
 MdServer/web-server/node_modules
 MdServer/.idea/
+MdClient/Library
+MdClient/Temp
+MdClient/MdClient.CSharp.csproj
+MdClient/MdClient.sln
+MdClient/MdClient.v12.suo
