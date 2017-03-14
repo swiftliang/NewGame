@@ -1,0 +1,43 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:b00dd447d129beaeb68447aad8d27c4c:73aedbe140210b4d5a5af5f3092ad87b:1cdc2aaa7d7ee372802281ec2ac1aa69$
+#
+:format=40000
+:texture=Warrior.png
+:size=512x1024
+:pivotpoints=enabled
+
+Warior_Walk_000;1;865;115;81;0.5;0
+Warior_Walk_001;235;779;109;79;0.5;0
+Warior_Walk_002;330;623;101;92;0.5;0
+Warior_Walk_003;102;454;91;103;0.5;0
+Warior_Walk_004;416;503;93;97;0.5;0
+Warior_Walk_005;1;547;99;84;0.5;0
+Warior_Walk_006;225;700;103;77;0.5;0
+Warior_Walk_007;346;717;103;78;0.5;0
+Warior_Walk_008;110;641;102;79;0.5;0
+Warior_Walk_009;105;559;100;80;0.5;0
+Warior_Walk_010;1;633;102;79;0.5;0
+Warior_Walk_011;1;714;107;76;0.5;0
+Warrior_Die_000;365;942;115;81;0.5;0
+Warrior_Die_001;245;943;118;80;0.5;0
+Warrior_Die_002;1;948;120;75;0.5;0
+Warrior_Die_003;123;952;120;71;0.5;0
+Warrior_Die_004;123;877;118;73;0.5;0
+Warrior_Die_005;118;800;115;75;0.5;0
+Warrior_Die_006;1;792;112;71;0.5;0
+Warrior_Die_007;360;797;110;67;0.5;0
+Warrior_Die_008;360;797;110;67;0.5;0
+Warrior_Hitting_000;243;860;115;81;0.5;0
+Warrior_Hitting_001;207;494;91;111;0.5;0
+Warrior_Hitting_002;300;423;66;109;0.5;0
+Warrior_Hitting_003;214;607;100;91;0.5;0
+Warrior_Hitting_004;1;450;90;95;0.5;0
+Warrior_Hitting_005;433;602;71;113;0.5;0
+Warrior_Hitting_006;316;534;98;87;0.5;0
+Warrior_Hitting_007;115;722;108;76;0.5;0
+Warrior_Hitting_008;360;866;110;74;0.5;0

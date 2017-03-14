@@ -1,0 +1,45 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:96b8d5e6cef12982b46191ab4b44be42:ce58ced99fda4e0d3e05872762dc8ef7:0ea52bedd2f28f879a4faf3d8a1d87a1$
+#
+:format=40000
+:texture=BatArmyBomb.png
+:size=512x1024
+:pivotpoints=enabled
+
+BatBom_Death_000;415;791;73;113;0.5;0
+BatBom_Death_001;415;906;87;117;0.5;0
+BatBom_Death_002;277;785;103;117;0.5;0
+BatBom_Death_003;1;783;119;117;0.5;0
+BatBom_Death_004;139;904;136;119;0.5;0
+BatBom_Death_005;277;904;136;119;0.5;0
+BatBom_Death_006;139;783;136;119;0.5;0
+BatBom_Death_007;1;902;136;121;0.5;0
+BatBom_Fly_000;382;676;73;113;0.5;0
+BatBom_Fly_001;352;577;73;97;0.5;0
+BatBom_Fly_002;1;615;72;82;0.5;0
+BatBom_Fly_003;150;705;72;76;0.5;0
+BatBom_Fly_004;221;510;70;77;0.5;0
+BatBom_Fly_005;224;589;71;79;0.5;0
+BatBom_Fly_006;1;532;71;81;0.5;0
+BatBom_Fly_007;224;589;71;79;0.5;0
+BatBom_Fly_008;221;510;70;77;0.5;0
+BatBom_Fly_009;150;705;72;76;0.5;0
+BatBom_Fly_010;1;615;72;82;0.5;0
+BatBom_Fly_011;352;577;73;97;0.5;0
+BatBom_throw_000;277;670;73;113;0.5;0
+BatBom_throw_001;427;577;73;97;0.5;0
+BatBom_throw_002;1;699;73;82;0.5;0
+BatBom_throw_003;150;631;72;72;0.5;0
+BatBom_throw_004;74;445;70;73;0.5;0
+BatBom_throw_005;1;381;70;73;0.5;0
+BatBom_throw_006;147;478;70;74;0.5;0
+BatBom_throw_007;1;456;71;74;0.5;0
+BatBom_throw_008;148;554;71;75;0.5;0
+BatBom_throw_009;74;520;71;75;0.5;0
+BatBom_throw_010;76;697;72;84;0.5;0
+BatBom_throw_011;75;597;71;98;0.5;0

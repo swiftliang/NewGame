@@ -1,0 +1,43 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:63405a00d82997e9ba23d60fd53e8cc6:afb360264aa168d0d0eb3159ed8e5f72:21342737960cb911baf62fa196d9b243$
+#
+:format=40000
+:texture=SpearMan.png
+:size=512x512
+:pivotpoints=enabled
+
+Spearman_Die_000;421;197;82;91;0.5;0
+Spearman_Die_001;422;290;89;75;0.5;0
+Spearman_Die_002;100;79;94;70;0.5;0
+Spearman_Die_003;1;115;97;66;0.5;0
+Spearman_Die_004;203;121;99;60;0.5;0
+Spearman_Die_005;316;192;102;53;0.5;0
+Spearman_Die_006;317;321;103;44;0.5;0
+Spearman_Die_007;210;183;102;41;0.5;0
+Spearman_Die_008;210;183;102;41;0.5;0
+Spearman_Shoot_000;1;22;82;91;0.5;0
+Spearman_Shoot_001;420;115;91;80;0.5;0
+Spearman_Shoot_002;107;298;103;71;0.5;0
+Spearman_Shoot_003;383;439;122;72;0.5;0
+Spearman_Shoot_004;1;441;126;70;0.5;0
+Spearman_Shoot_005;129;441;126;70;0.5;0
+Spearman_Shoot_006;257;438;124;73;0.5;0
+Spearman_Shoot_007;319;372;62;64;0.5;0
+Spearman_Shoot_008;319;372;62;64;0.5;0
+Spearman_Walk_000;212;299;103;68;0.5;0
+Spearman_Walk_001;383;367;104;70;0.5;0
+Spearman_Walk_002;212;226;102;71;0.5;0
+Spearman_Walk_003;317;247;102;72;0.5;0
+Spearman_Walk_004;106;225;102;71;0.5;0
+Spearman_Walk_005;1;370;104;69;0.5;0
+Spearman_Walk_006;213;369;104;67;0.5;0
+Spearman_Walk_007;107;371;104;68;0.5;0
+Spearman_Walk_008;1;225;102;70;0.5;0
+Spearman_Walk_009;100;151;101;72;0.5;0
+Spearman_Walk_010;314;117;101;73;0.5;0
+Spearman_Walk_011;1;297;103;71;0.5;0

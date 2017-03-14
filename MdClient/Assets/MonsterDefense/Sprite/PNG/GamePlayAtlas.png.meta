@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 2eed8dcb4ab01564ab9a3fb6ac1c1354
+timeCreated: 1475314362
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1Star
+    21300002: 2Star
+    21300004: 3Star
+    21300006: AddBtn
+    21300008: BlackBar
+    21300010: box2
+    21300012: box3
+    21300014: Coin1
+    21300016: DarkArrowIcon
+    21300018: emptyBtn
+    21300020: EmptyBtn01
+    21300022: FB_Icon
+    21300024: FireArrowICon
+    21300026: FireBallIcon
+    21300028: FreezeMagicIcon
+    21300030: Gplus_Icon
+    21300032: GuardIcon
+    21300034: HpIcon
+    21300036: IceArrowIcon
+    21300038: IronArrowIcon
+    21300040: LevelClearedText
+    21300042: LightArrowICon
+    21300044: LightingMagicIcon
+    21300046: off_Active
+    21300048: On_Active
+    21300050: PauseBtn
+    21300052: PoisonArrowICon
+    21300054: RedBar
+    21300056: Ribbon
+    21300058: ScoreBOx
+    21300060: SkullIcon
+    21300062: UpBtn
+    21300064: VolBtn
+    21300066: Volume
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1Star
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 596
+        width: 279
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 2Star
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 576
+        width: 279
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 3Star
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 530
+        width: 279
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AddBtn
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 549
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BlackBar
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 760
+        width: 372
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: box2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 658
+        width: 407
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: box3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 704
+        width: 290
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 724
+        width: 137
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: DarkArrowIcon
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 499
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: emptyBtn
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 510
+        width: 186
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: EmptyBtn01
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 799
+        width: 139
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FB_Icon
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 408
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireArrowICon
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 487
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FireBallIcon
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 333
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FreezeMagicIcon
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 333
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Gplus_Icon
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 407
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: GuardIcon
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 479
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HpIcon
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 482
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: IceArrowIcon
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: IronArrowIcon
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 421
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LevelClearedText
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 962
+        width: 415
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightArrowICon
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 483
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LightingMagicIcon
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 484
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: off_Active
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 600
+        width: 132
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: On_Active
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 629
+        width: 132
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PauseBtn
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 472
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PoisonArrowICon
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 398
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RedBar
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 588
+        width: 106
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Ribbon
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 865
+        width: 575
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ScoreBOx
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 791
+        width: 396
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullIcon
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 487
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: UpBtn
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 486
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: VolBtn
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 489
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Volume
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 572
+        width: 254
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

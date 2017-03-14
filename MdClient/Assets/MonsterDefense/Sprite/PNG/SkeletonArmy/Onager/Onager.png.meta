@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 7a034d3a88792174eb3035617693528a
+timeCreated: 1475255143
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Onager_Attack_000
+    21300002: Onager_Attack_001
+    21300004: Onager_Attack_002
+    21300006: Onager_Attack_003
+    21300008: Onager_Attack_004
+    21300010: Onager_Attack_005
+    21300012: Onager_Death_000
+    21300014: Onager_Death_001
+    21300016: Onager_Death_002
+    21300018: Onager_Death_003
+    21300020: Onager_Death_004
+    21300022: Onager_Death_005
+    21300024: Onager_Walk_000
+    21300026: Onager_Walk_001
+    21300028: Onager_Walk_002
+    21300030: Onager_Walk_003
+    21300032: Onager_Walk_004
+    21300034: Onager_Walk_005
+    21300036: Onager_Walk_006
+    21300038: Onager_Walk_007
+    21300040: Onager_Walk_008
+    21300042: Onager_Walk_009
+    21300044: Onager_Walk_010
+    21300046: Onager_Walk_011
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Onager_Attack_000
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 773
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Attack_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 858
+        width: 165
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Attack_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 786
+        width: 165
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Attack_003
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 485
+        width: 164
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Attack_004
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 848
+        width: 165
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Attack_005
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 846
+        width: 165
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 713
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_001
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 484
+        width: 164
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_002
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 919
+        width: 173
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 931
+        width: 178
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_004
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 979
+        width: 181
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Death_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 986
+        width: 183
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_000
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 555
+        width: 164
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_001
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 701
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_002
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 700
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_003
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 415
+        width: 164
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 164
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 640
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_006
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 628
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_007
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 627
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_008
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 774
+        width: 164
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 567
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 164
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Onager_Walk_011
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 555
+        width: 164
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

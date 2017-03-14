@@ -1,0 +1,43 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f85df15239f2ca7ce18b35df6b3ee64e:ad163141e6bcee41a99b1f14d6f4545e:eb02397e81722245d2791f0667748531$
+#
+:format=40000
+:texture=BigBoss.png
+:size=1024x1024
+:pivotpoints=enabled
+
+Bos_Attack_000;327;891;161;132;0.5;0
+Bos_Attack_001;813;757;158;133;0.5;0
+Bos_Attack_002;156;749;153;133;0.5;0
+Bos_Attack_003;1;335;148;135;0.5;0
+Bos_Attack_004;1;194;144;139;0.5;0
+Bos_Attack_005;771;481;141;141;0.5;0
+Bos_Attack_006;143;48;141;144;0.5;0
+Bos_Attack_007;1;47;140;145;0.5;0
+Bos_Attack_008;1;47;140;145;0.5;0
+Bos_Death_000;490;891;161;132;0.5;0
+Bos_Death_001;653;892;160;131;0.5;0
+Bos_Death_002;815;892;159;131;0.5;0
+Bos_Death_003;813;624;158;131;0.5;0
+Bos_Death_004;327;757;157;132;0.5;0
+Bos_Death_005;486;754;155;135;0.5;0
+Bos_Death_006;653;753;158;137;0.5;0
+Bos_Death_007;1;884;161;139;0.5;0
+Bos_Death_008;164;884;161;139;0.5;0
+Bos_Walk_000;311;620;152;135;0.5;0
+Bos_Walk_001;1;472;151;135;0.5;0
+Bos_Walk_002;463;480;150;135;0.5;0
+Bos_Walk_003;154;334;148;137;0.5;0
+Bos_Walk_004;308;342;149;137;0.5;0
+Bos_Walk_005;619;614;150;137;0.5;0
+Bos_Walk_006;310;481;151;137;0.5;0
+Bos_Walk_007;155;473;151;137;0.5;0
+Bos_Walk_008;1;746;153;136;0.5;0
+Bos_Walk_009;156;612;152;135;0.5;0
+Bos_Walk_010;1;609;152;135;0.5;0
+Bos_Walk_011;465;617;152;135;0.5;0

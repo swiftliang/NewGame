@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 0504cb26d7229fe459dbb23ad262bf46
+timeCreated: 1475255124
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spearman_Die_000
+    21300002: Spearman_Die_001
+    21300004: Spearman_Die_002
+    21300006: Spearman_Die_003
+    21300008: Spearman_Die_004
+    21300010: Spearman_Die_005
+    21300012: Spearman_Die_006
+    21300014: Spearman_Die_007
+    21300016: Spearman_Die_008
+    21300018: Spearman_Shoot_000
+    21300020: Spearman_Shoot_001
+    21300022: Spearman_Shoot_002
+    21300024: Spearman_Shoot_003
+    21300026: Spearman_Shoot_004
+    21300028: Spearman_Shoot_005
+    21300030: Spearman_Shoot_006
+    21300032: Spearman_Shoot_007
+    21300034: Spearman_Shoot_008
+    21300036: Spearman_Walk_000
+    21300038: Spearman_Walk_001
+    21300040: Spearman_Walk_002
+    21300042: Spearman_Walk_003
+    21300044: Spearman_Walk_004
+    21300046: Spearman_Walk_005
+    21300048: Spearman_Walk_006
+    21300050: Spearman_Walk_007
+    21300052: Spearman_Walk_008
+    21300054: Spearman_Walk_009
+    21300056: Spearman_Walk_010
+    21300058: Spearman_Walk_011
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spearman_Die_000
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 197
+        width: 82
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_001
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 290
+        width: 89
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_002
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 79
+        width: 94
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 97
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_004
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 121
+        width: 99
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_005
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 192
+        width: 102
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_006
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 321
+        width: 103
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_007
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 183
+        width: 102
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Die_008
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 183
+        width: 102
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 22
+        width: 82
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_001
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 115
+        width: 91
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_002
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 298
+        width: 103
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_003
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 439
+        width: 122
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 441
+        width: 126
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_005
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 441
+        width: 126
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_006
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 438
+        width: 124
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_007
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 372
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Shoot_008
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 372
+        width: 62
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_000
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 299
+        width: 103
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_001
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 367
+        width: 104
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_002
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 226
+        width: 102
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_003
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 247
+        width: 102
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_004
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 225
+        width: 102
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 370
+        width: 104
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_006
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 369
+        width: 104
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_007
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 371
+        width: 104
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 102
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_009
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 151
+        width: 101
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_010
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 117
+        width: 101
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Spearman_Walk_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 103
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

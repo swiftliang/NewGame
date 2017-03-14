@@ -1,0 +1,45 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:21609bca60d06b01e638f9b3195e5784:16fd575bb675b2d915170ab7971d4d99:040a85d4af56f6d0edf8d53347593e5d$
+#
+:format=40000
+:texture=BatArmySword.png
+:size=512x1024
+:pivotpoints=enabled
+
+BatSword_Death_000;411;348;93;107;0.5;0
+BatSword_Death_001;320;566;112;127;0.5;0
+BatSword_Death_002;320;695;130;146;0.5;0
+BatSword_Death_003;169;677;149;164;0.5;0
+BatSword_Death_004;1;843;166;180;0.5;0
+BatSword_Death_005;169;843;166;180;0.5;0
+BatSword_Death_006;337;843;166;180;0.5;0
+BatSword_Death_007;1;661;166;180;0.5;0
+BatSword_Fly_000;107;377;103;131;0.5;0
+BatSword_Fly_001;1;268;101;114;0.5;0
+BatSword_Fly_002;1;384;102;99;0.5;0
+BatSword_Fly_003;320;474;101;90;0.5;0
+BatSword_Fly_004;212;403;98;92;0.5;0
+BatSword_Fly_005;219;497;99;93;0.5;0
+BatSword_Fly_006;312;377;97;95;0.5;0
+BatSword_Fly_007;219;497;99;93;0.5;0
+BatSword_Fly_008;212;403;98;92;0.5;0
+BatSword_Fly_009;320;474;101;90;0.5;0
+BatSword_Fly_010;1;384;102;99;0.5;0
+BatSword_Fly_011;1;268;101;114;0.5;0
+BatSword_Hit_000;212;293;94;108;0.5;0
+BatSword_Hit_001;104;279;89;96;0.5;0
+BatSword_Hit_002;308;290;92;85;0.5;0
+BatSword_Hit_003;169;592;112;83;0.5;0
+BatSword_Hit_004;1;485;104;91;0.5;0
+BatSword_Hit_005;104;165;82;112;0.5;0
+BatSword_Hit_006;434;571;66;122;0.5;0
+BatSword_Hit_007;423;457;87;107;0.5;0
+BatSword_Hit_008;1;578;107;81;0.5;0
+BatSword_Hit_009;110;510;107;80;0.5;0
+BatSword_Hit_010;195;201;83;90;0.5;0
+BatSword_Hit_011;402;250;86;96;0.5;0

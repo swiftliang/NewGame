@@ -1,0 +1,43 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:ba015539e6f50a075311a49775f27c25:3f2d37eff2d288122e35defe901add0a:5f756c1b073f18fa81e1b03dd2b2f194$
+#
+:format=40000
+:texture=SkullStone.png
+:size=1024x1024
+:pivotpoints=enabled
+
+SkullStone_Death_000;504;636;128;129;0.5;0
+SkullStone_Death_001;265;635;125;129;0.5;0
+SkullStone_Death_002;635;760;129;122;0.5;0
+SkullStone_Death_003;1;667;127;113;0.5;0
+SkullStone_Death_004;113;60;112;109;0.5;0
+SkullStone_Death_005;1;439;118;111;0.5;0
+SkullStone_Death_006;1;552;127;113;0.5;0
+SkullStone_Death_007;235;784;133;112;0.5;0
+SkullStone_Death_008;1;782;133;112;0.5;0
+SkullStone_Throw_000;634;629;128;129;0.5;0
+SkullStone_Throw_001;251;502;115;131;0.5;0
+SkullStone_Throw_002;1;29;110;140;0.5;0
+SkullStone_Throw_003;392;594;110;170;0.5;0
+SkullStone_Throw_004;238;340;112;160;0.5;0
+SkullStone_Throw_005;658;884;152;139;0.5;0
+SkullStone_Throw_006;459;898;197;125;0.5;0
+SkullStone_Throw_007;235;898;222;125;0.5;0
+SkullStone_Throw_008;1;896;232;127;0.5;0
+SkullStone_Walk_000;504;767;129;129;0.5;0
+SkullStone_Walk_001;370;766;132;130;0.5;0
+SkullStone_Walk_002;812;758;133;131;0.5;0
+SkullStone_Walk_003;812;891;136;132;0.5;0
+SkullStone_Walk_004;136;650;127;132;0.5;0
+SkullStone_Walk_005;504;503;122;131;0.5;0
+SkullStone_Walk_006;130;517;119;131;0.5;0
+SkullStone_Walk_007;121;384;115;131;0.5;0
+SkullStone_Walk_008;368;460;114;132;0.5;0
+SkullStone_Walk_009;118;249;112;133;0.5;0
+SkullStone_Walk_010;1;171;112;133;0.5;0
+SkullStone_Walk_011;1;306;115;131;0.5;0

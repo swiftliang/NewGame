@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:558ce9a42f426a81d61ce273e69f6c19:93536e3cd8aff6b31f776980e697cecb:44569a116ccee3a96d7f933a7b4e3494$
+#
+:format=40000
+:texture=Shiledman.png
+:size=512x512
+:pivotpoints=enabled
+
+Shieldman_Attack_000;1;142;99;81;0.5;0
+Shieldman_Attack_001;405;178;91;83;0.5;0
+Shieldman_Attack_002;425;346;60;101;0.5;0
+Shieldman_Attack_003;252;10;57;96;0.5;0
+Shieldman_Attack_004;193;3;57;103;0.5;0
+Shieldman_Attack_005;297;108;88;89;0.5;0
+Shieldman_Death_000;312;282;99;81;0.5;0
+Shieldman_Death_001;99;53;92;81;0.5;0
+Shieldman_Death_002;201;128;94;77;0.5;0
+Shieldman_Death_003;104;219;100;71;0.5;0
+Shieldman_Death_004;1;395;108;65;0.5;0
+Shieldman_Death_005;369;449;115;62;0.5;0
+Shieldman_Death_006;247;456;120;55;0.5;0
+Shieldman_Death_007;1;462;121;49;0.5;0
+Shieldman_Death_008;124;462;121;49;0.5;0
+Shieldman_Walk_000;206;207;99;81;0.5;0
+Shieldman_Walk_001;322;365;101;82;0.5;0
+Shieldman_Walk_002;1;225;101;83;0.5;0
+Shieldman_Walk_003;106;292;102;84;0.5;0
+Shieldman_Walk_004;1;310;103;83;0.5;0
+Shieldman_Walk_005;111;378;104;82;0.5;0
+Shieldman_Walk_006;217;373;103;81;0.5;0
+Shieldman_Walk_007;210;290;100;81;0.5;0
+Shieldman_Walk_008;413;263;98;81;0.5;0
+Shieldman_Walk_009;1;59;96;81;0.5;0
+Shieldman_Walk_010;307;199;96;81;0.5;0
+Shieldman_Walk_011;102;136;97;81;0.5;0

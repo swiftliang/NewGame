@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fd4279f7390c70040a678e5a9f0b1e5c
+timeCreated: 1475037553
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - coin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

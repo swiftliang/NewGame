@@ -1,0 +1,37 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e28744fb27f748ef9f2f1d5cbc999431:6e5770dd432d535c108ea50d9590b829:6dac9d04b3912eabc846004973d3b962$
+#
+:format=40000
+:texture=Witch.png
+:size=512x512
+:pivotpoints=enabled
+
+Witch_Die_000;434;422;61;89;0.5;0
+Witch_Die_001;284;423;80;88;0.5;0
+Witch_Die_002;191;442;91;69;0.5;0
+Witch_Die_003;96;470;93;41;0.5;0
+Witch_Die_004;1;468;93;43;0.5;0
+Witch_Die_005;1;468;93;43;0.5;0
+Witch_Use_Magic_000;366;419;66;92;0.5;0
+Witch_Use_Magic_001;1;282;73;92;0.5;0
+Witch_Use_Magic_002;180;349;78;91;0.5;0
+Witch_Use_Magic_003;96;379;82;89;0.5;0
+Witch_Use_Magic_004;1;376;80;90;0.5;0
+Witch_Use_Magic_005;83;286;75;91;0.5;0
+Witch_Walk_000;1;98;57;88;0.5;0
+Witch_Walk_001;76;195;59;89;0.5;0
+Witch_Walk_002;434;329;59;91;0.5;0
+Witch_Walk_003;1;188;58;92;0.5;0
+Witch_Walk_004;260;330;59;91;0.5;0
+Witch_Walk_005;321;326;58;91;0.5;0
+Witch_Walk_006;1;7;56;89;0.5;0
+Witch_Walk_007;59;7;56;89;0.5;0
+Witch_Walk_008;61;104;57;89;0.5;0
+Witch_Walk_009;221;238;58;90;0.5;0
+Witch_Walk_010;160;257;59;90;0.5;0
+Witch_Walk_011;137;165;58;90;0.5;0

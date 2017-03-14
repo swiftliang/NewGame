@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: bb880400d3dfb1749907b459ffab8ffe
+timeCreated: 1475255176
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SkullStone_Death_000
+    21300002: SkullStone_Death_001
+    21300004: SkullStone_Death_002
+    21300006: SkullStone_Death_003
+    21300008: SkullStone_Death_004
+    21300010: SkullStone_Death_005
+    21300012: SkullStone_Death_006
+    21300014: SkullStone_Death_007
+    21300016: SkullStone_Death_008
+    21300018: SkullStone_Throw_000
+    21300020: SkullStone_Throw_001
+    21300022: SkullStone_Throw_002
+    21300024: SkullStone_Throw_003
+    21300026: SkullStone_Throw_004
+    21300028: SkullStone_Throw_005
+    21300030: SkullStone_Throw_006
+    21300032: SkullStone_Throw_007
+    21300034: SkullStone_Throw_008
+    21300036: SkullStone_Walk_000
+    21300038: SkullStone_Walk_001
+    21300040: SkullStone_Walk_002
+    21300042: SkullStone_Walk_003
+    21300044: SkullStone_Walk_004
+    21300046: SkullStone_Walk_005
+    21300048: SkullStone_Walk_006
+    21300050: SkullStone_Walk_007
+    21300052: SkullStone_Walk_008
+    21300054: SkullStone_Walk_009
+    21300056: SkullStone_Walk_010
+    21300058: SkullStone_Walk_011
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkullStone_Death_000
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 636
+        width: 128
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_001
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 635
+        width: 125
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_002
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 760
+        width: 129
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 667
+        width: 127
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_004
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 60
+        width: 112
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 439
+        width: 118
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 127
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_007
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 784
+        width: 133
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Death_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 782
+        width: 133
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_000
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 629
+        width: 128
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_001
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 502
+        width: 115
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 110
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_003
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 594
+        width: 110
+        height: 170
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_004
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 340
+        width: 112
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_005
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 884
+        width: 152
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_006
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 898
+        width: 197
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_007
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 898
+        width: 222
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Throw_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 896
+        width: 232
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_000
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 767
+        width: 129
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_001
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 766
+        width: 132
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_002
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 758
+        width: 133
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_003
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 891
+        width: 136
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_004
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 650
+        width: 127
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_005
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 503
+        width: 122
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_006
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 517
+        width: 119
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_007
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 384
+        width: 115
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_008
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 460
+        width: 114
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_009
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 249
+        width: 112
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 112
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: SkullStone_Walk_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 306
+        width: 115
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

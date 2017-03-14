@@ -1,0 +1,43 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:a406f89eea6a0d42ae028be40fea12ab:cc42b6a99a917dced63a82461aa8ae6a:a5befd8b34948a1d660a772246d426b7$
+#
+:format=40000
+:texture=GiantGiant.png
+:size=512x1024
+:pivotpoints=enabled
+
+Giant_Die_000;265;559;128;92;0.5;0
+Giant_Die_001;262;464;127;93;0.5;0
+Giant_Die_002;270;653;130;91;0.5;0
+Giant_Die_003;1;767;133;86;0.5;0
+Giant_Die_004;144;784;136;81;0.5;0
+Giant_Die_005;1;855;141;77;0.5;0
+Giant_Die_006;159;867;143;77;0.5;0
+Giant_Die_007;159;946;146;77;0.5;0
+Giant_Die_008;159;946;146;77;0.5;0
+Giant_Hitting_000;132;500;128;92;0.5;0
+Giant_Hitting_001;1;248;112;112;0.5;0
+Giant_Hitting_002;416;707;91;134;0.5;0
+Giant_Hitting_003;251;263;88;107;0.5;0
+Giant_Hitting_004;402;576;98;129;0.5;0
+Giant_Hitting_005;1;362;125;119;0.5;0
+Giant_Hitting_006;1;934;156;89;0.5;0
+Giant_Hitting_007;307;935;144;88;0.5;0
+Giant_Hitting_008;304;843;139;90;0.5;0
+Giant_Walk_000;1;483;128;92;0.5;0
+Giant_Walk_001;134;594;129;92;0.5;0
+Giant_Walk_002;136;688;132;94;0.5;0
+Giant_Walk_003;282;746;132;95;0.5;0
+Giant_Walk_004;1;671;131;94;0.5;0
+Giant_Walk_005;1;577;129;92;0.5;0
+Giant_Walk_006;131;408;126;90;0.5;0
+Giant_Walk_007;259;372;124;90;0.5;0
+Giant_Walk_008;128;313;121;93;0.5;0
+Giant_Walk_009;391;381;117;95;0.5;0
+Giant_Walk_010;395;478;116;96;0.5;0
+Giant_Walk_011;385;284;122;95;0.5;0
