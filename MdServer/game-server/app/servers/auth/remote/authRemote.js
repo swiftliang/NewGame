@@ -5,11 +5,11 @@ var Code = require('../../../../consts/code');
 var DEFAULT_SECRET = 'MDServer_session_secret';
 var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
 
-module.exports = function(app) {
+module.exports = function (app) {
     return new Remote(app);
 };
 
-var Remote = function(app) {
+var Remote = function (app) {
     this.app = app;
     var session = app.get('session') || {};
     this.secret = session.secret || DEFAULT_SECRET;
@@ -18,20 +18,20 @@ var Remote = function(app) {
 
 var pro = Remote.prototype;
 
-pro.auth = function(token, cb) {
+pro.auth = function (token, cb) {
     var res = tokenService.parse(token, this.secret);
-    if(!res) {
-        cb(null. Code.ENTRY.FA_TOKEN_INVALID);
+    if (!res) {
+        cb(null.Code.ENTRY.FA_TOKEN_INVALID);
         return;
     }
 
-    if(!checkExpire(res, this.expire)) {
+    if (!checkExpire(res, this.expire)) {
         cb(null, Code.ENTRY.FA_TOKEN_EXPIRE);
         return;
     }
 
-    userDao.getUserById(res.uid, function(err, user) {
-        if(err) {
+    userDao.getUserById(res.uid, function (err, user) {
+        if (err) {
             cb(err);
             return;
         }
@@ -39,8 +39,8 @@ pro.auth = function(token, cb) {
     })
 };
 
-var checkExpire = function(token, expire) {
-    if(expire < 0) {
+var checkExpire = function (token, expire) {
+    if (expire < 0) {
         return true;
     }
 
