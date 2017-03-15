@@ -10,6 +10,8 @@ public class LoginWindow : MonoBehaviour {
     public InputField inputPwd;
     public Button btnLogin;
     public Button btnRegister;
+
+    public Transform RegisterWindow;
 	// Use this for initialization
 	void Start () {
         inputPwd.inputType = InputField.InputType.Password;
@@ -19,11 +21,23 @@ public class LoginWindow : MonoBehaviour {
 
     void doLogin()
     {
+        if (inputName.text.Length <= 0 || inputPwd.text.Length <= 0)
+            return;
+        NetWorkMgr.Instance.Login(inputName.text, inputPwd.text, (result) => {
+            if(result == Constants.SUCCESS)
+            {
 
+            }
+            else
+            {
+
+            }
+        });
     }
 
     void doRegister()
     {
-
+        RegisterWindow.gameObject.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

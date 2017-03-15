@@ -56,4 +56,16 @@ public class PlayerController : MonoBehaviour {
         arrow.transform.position = pointShoot.position;
         arrow.SetActive(true);
     }
+
+    public bool CanShoot
+    {
+        set
+        {
+            canShoot = value;
+        }
+        get
+        {
+            return canShoot;
+        }
+    }
 }

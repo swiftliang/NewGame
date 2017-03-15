@@ -30,6 +30,17 @@ public class GenManager : MonoBehaviour {
             }
     }
 
+    public GameManager gmr
+    {
+        set
+        {
+            _gameManager = value;
+        }
+        get
+        {
+            return _gameManager;
+        }
+    }
     public GameObject GetArrow()
     {
         for (int i = 0; i < ArrowList.Count; i++)
