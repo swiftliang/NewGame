@@ -142,7 +142,6 @@ namespace NW
                 if (_loginInfo.code == Constants.SUCCESS)
                 {
                     loginState = LoginState.Validated;
-                    Debug.Log(_loginInfo.token);
                 }
                 else loginState = LoginState.Offline;
 
