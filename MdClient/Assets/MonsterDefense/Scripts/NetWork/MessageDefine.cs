@@ -14,10 +14,14 @@ namespace NW
         public int gatePort;
     }
 
-    public class GameInfo : MessageBase
+    public class GInfoDetail
     {
         public int coin;
         public string stars;
         public string skills;
+    }
+    public class GameInfo : MessageBase
+    {
+        public GInfoDetail details;
     }
 }

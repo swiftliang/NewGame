@@ -1,5 +1,5 @@
 
-var EventEmitter = require('event').EventEmitter;
+var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 
 var Persistent = function(opts) {

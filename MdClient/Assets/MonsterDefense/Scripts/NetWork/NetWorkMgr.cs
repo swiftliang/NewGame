@@ -122,7 +122,7 @@ namespace NW
                     JsonObject msg = new JsonObject();
                     msg["uid"] = _loginInfo.uid;
                     msg["token"] = _loginInfo.token;
-                    msg["Game"] = "MDGame";
+                    msg["game"] = "MDGame";
                     _GameSvrConnection.request("connector.entryHandler.enter", msg, result =>
                     {
                         if (cb != null)

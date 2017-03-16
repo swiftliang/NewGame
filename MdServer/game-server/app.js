@@ -1,6 +1,6 @@
 var pomelo = require('pomelo');
 var sync = require('pomelo-sync-plugin');
-var PlayerManager = require('./domain/PlayerManager');
+var PlayerManager = require('./app/domain/PlayerManager');
 /**
  * Init app for client.
  */
@@ -22,7 +22,7 @@ app.configure('production|development', 'connector', function(){
 
   app.loadConfig('mysql', app.getBase() + '/../shared/config/mysql.json');
 
-  app.use(sync, {sync: {path:__dirname + 'app/dao/mapping', dbclient: dbclient}});
+  app.use(sync, {sync: {path:__dirname + '/app/dao/mapping', dbclient: dbclient}});
 });
 
 // start app

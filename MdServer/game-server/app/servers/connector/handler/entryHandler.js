@@ -1,4 +1,4 @@
-var Code = require('../../../../consts/code');
+var Code = require('../../../consts/code');
 var async = require('async');
 var mdDao = require('../../../dao/mdDao');
 
@@ -24,7 +24,7 @@ Handler.prototype.entry = function(msg, session, next) {
 		next(new Error('invalid entry request: empty token'), {code: Code.FAILED});
 		return;
 	}
-	var MDGame;
+	var gameInfo;
 	async.waterfall([
 		function(cb) {
 			self.app.rpc.auth.authRemote.auth(session, token, cb);
@@ -38,8 +38,10 @@ Handler.prototype.entry = function(msg, session, next) {
 				next(null, {code: Code.ENTRY.FA_USER_NOT_EXIST});
 				return;
 			}
-
-			mdDao.getGameInfoByuId(user.uid, cb);
+			if(msg.game === 'MDGame')
+			{
+				mdDao.getGameInfoByuId(user.uid, cb);
+			}
 		}, function(err, res, cb) {
 			if(!err) {
 				mdDao.CreateGameInfo(user.uid, function(err, player) {
@@ -51,21 +53,21 @@ Handler.prototype.entry = function(msg, session, next) {
 					res = player;
 				});
 			}
-			MDGame = res;
+			gameInfo = res;
 			self.app.get('sessionService').kick(uid, cb);
 		}, function(cb) {
 			session.bind(uid, cb);
 		}, function(cb) {
-			if(!MDGame || MDGame.length === 0) {
-				next(null, {code: Code.SUCCESS});
+			if(!gameInfo || gameInfo.length === 0) {
+				next(null, {code: Code.DATA_ERROR});
 				return;
 			}
 
-			MDGame = MDGame[0];
-			session.set('playername', MDGame.name);
+			gameInfo = gameInfo[0];
+			session.set('playername', gameInfo.name);
 			session.on('closed', onUserLeave.bind(null, self.app));
 			session.pushAll(cb);
-			app.PlayerManager.add(MDGame.uid, MDGame);
+			app.PlayerManager.add(gameInfo.uid, gameInfo);
 		}
 	], function(err) {
 		if(err) {
@@ -73,8 +75,8 @@ Handler.prototype.entry = function(msg, session, next) {
 			return;
 		}
 	});
-
-	next(null, {code: Code.SUCCESS, gameInfo: MDGame});
+	
+	next(null, {code: Code.SUCCESS, gameInfo: JSON.stringify(gameInfo)});
 };
 
 var onUserLeave = function(app, session, reason) {

@@ -6,3 +6,10 @@
 [2017-03-09 15:17:30.298] [INFO] pomelo - [32m[E:\study\MonsterDefenseServer\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
 [2017-03-09 15:17:30.303] [INFO] pomelo - [32m[E:\study\MonsterDefenseServer\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
 [2017-03-09 15:17:30.303] [INFO] pomelo - [32m[E:\study\MonsterDefenseServer\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 291 ms
+[2017-03-16 11:40:45.068] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-16 11:42:37.927] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-16 11:43:58.286] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-16 11:47:10.620] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2017-03-16 11:47:11.003] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2017-03-16 11:47:11.008] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2017-03-16 11:47:11.008] [INFO] pomelo - [32m[F:\NewGame\MdServer\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 297 ms
