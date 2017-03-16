@@ -34,6 +34,10 @@ public class RegisterWindow : MonoBehaviour {
         NetWorkMgr.Instance.Register(inputName.text, inputPwd.text, code =>
         {
             Debug.Log("register result code: " + code);
+            if(code == Constants.SUCCESS)
+            {
+                btnRegister.interactable = false;
+            }
         });
     }
 
