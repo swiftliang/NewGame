@@ -25,6 +25,14 @@ app.configure('production|development', 'connector', function(){
   app.use(sync, {sync: {path:__dirname + '/app/dao/mapping', dbclient: dbclient}});
 });
 
+
+app.configure('production|development', 'gate', function(){
+  app.set('connectorConfig',
+      {
+        connector : pomelo.connectors.hybridconnector,
+        useProtobuf : true
+      });
+});
 // start app
 app.start();
 

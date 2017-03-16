@@ -18,7 +18,7 @@ var Handler = function(app) {
  * @param  {Function} next    next step callback
  * @return {Void}
  */
-Handler.prototype.entry = function(msg, session, next) {
+Handler.prototype.enter = function(msg, session, next) {
 	var token = msg.token, self = this;
 	if(!token) {
 		next(new Error('invalid entry request: empty token'), {code: Code.FAILED});

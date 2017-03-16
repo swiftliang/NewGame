@@ -116,19 +116,23 @@ namespace NW
             _GameSvrConnection.disconnect();
             _GameSvrConnection.initClient(_gameSvrIP, _gameSvrPort, () =>
             {
-                _GameSvrConnection.connect(data =>
+                _GameSvrConnection.connect(null, data =>
                 {
                     Debug.Log("connect connector data: " + data);
                     JsonObject msg = new JsonObject();
                     msg["uid"] = _loginInfo.uid;
                     msg["token"] = _loginInfo.token;
                     msg["game"] = "MDGame";
-                    _GameSvrConnection.request("connector.entryHandler.enter", msg, result =>
+                    _GameSvrConnection.request(RequestMsg.REQUEST_ENTER, msg, result =>
                     {
                         if (cb != null)
                         {
                             GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
                             cb(ginfo);
+                            if(ginfo.code == Constants.SUCCESS)
+                            {
+                                loginState = LoginState.Logined;
+                            }
                         }
                     });
                 });
@@ -181,13 +185,13 @@ namespace NW
             Constants code = Constants.INVALID;
             _GateClientConnection.initClient(_loginInfo.gateHost, _loginInfo.gatePort, () =>
             {
-                _GateClientConnection.connect((data) =>
+                _GateClientConnection.connect(null, (data) =>
                 {
                     Debug.Log("connect gate data: " + data);
                     SimpleJson.JsonObject msg = new SimpleJson.JsonObject();
                     msg["uid"] = _loginInfo.uid;
                     //msg["token"] = _loginInfo.token;
-                    _GateClientConnection.request("gate.gateHandler.queryEntry", msg, (result) =>
+                    _GateClientConnection.request(RequestMsg.REQUEST_CONNECTOR, msg, (result) =>
                     {
                         code = (Constants)Convert.ToInt32(result["code"]);
                         _gameSvrIP = (string)result["host"];

@@ -4,6 +4,7 @@
   "private": false,
   "dependencies": {
     "generic-pool": "*",
+    "crc" : ">=0.0.1",
     "mysql": "^2.13.0",
     "async": ">=0.0.1",
     "pomelo": "1.2.3",

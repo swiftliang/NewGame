@@ -1,8 +1,11 @@
 MdServer/game-server/node_modules
+*.log
 MdServer/web-server/node_modules
 MdServer/.idea/
 MdClient/Library
+MdClient/obj
 MdClient/Temp
-MdClient/MdClient.CSharp.csproj
-MdClient/MdClient.sln
-MdClient/MdClient.v12.suo
+*.csproj
+*.sln
+*.userprefs
+*.suo
