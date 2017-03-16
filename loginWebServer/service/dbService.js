@@ -30,7 +30,7 @@ dbService.selectUserinfo = function(userName, callback) {
  * */
 dbService.registerUserinfo = function(userName, password, deviceID, registerType, callback) {
   var sql = 'insert into userinfo (userName, password, registerType, registerDeviceID, registerTime) values (?, ?, ?, ?, ?)';
-  var args = [userName, crypto.md5(password), registerType, deviceID, Date().now()];
+  var args = [userName, crypto.md5(password), registerType, deviceID, Date.now()];
   dataBase.query(sql, args, function(err, res) {
     if(err) {
       logger.error('registerUserinfo error: ' + err);
@@ -46,7 +46,7 @@ dbService.registerUserinfo = function(userName, password, deviceID, registerType
 * */
 dbService.updateUserLoginTime = function(userName) {
   var sql = 'update userinfo set lastLoginTime = ? where userName = ?';
-  var args = [Date().now(), userName];
+  var args = [Date.now(), userName];
   dataBase.query(sql, args, function(err, res) {
     if(err) {
       logger.error('updateUserLoginTime error: ' + err);
@@ -59,7 +59,7 @@ dbService.updateUserLoginTime = function(userName) {
 * */
 dbService.quickRegister = function(password, deviceID, registerType, callback) {
   var sql = 'insert into userinfo (password, registerType, registerDeviceID, registerTime) values (?, ?, ?, ?)';
-  var args = [crypto.md5(password), registerType, deviceID, Date().now()];
+  var args = [crypto.md5(password), registerType, deviceID, Date.now()];
   dataBase.query(sql, args, function(err, res) {
     if(err) {
       logger.error('registerUserinfo error: ' + err);

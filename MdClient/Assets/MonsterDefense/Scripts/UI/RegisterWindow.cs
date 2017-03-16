@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using NW;
 
 public class RegisterWindow : MonoBehaviour {
 
@@ -22,7 +23,18 @@ public class RegisterWindow : MonoBehaviour {
 
     void doRegister()
     {
-
+        if(inputName.text.Length <= 0 || inputPwd.text.Length <= 0 || inputPwd2.text.Length <=0)
+        {
+            return;
+        }
+        if (inputPwd.text != inputPwd2.text)
+        {
+            return;
+        }
+        NetWorkMgr.Instance.Register(inputName.text, inputPwd.text, code =>
+        {
+            Debug.Log("register result code: " + code);
+        });
     }
 
     void doBack()
