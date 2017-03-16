@@ -145,7 +145,7 @@ Handler.prototype.UnlockLevel = function(msg, session, next) {
 	next(null, result);
 };
 
-Handler.prototype.AddIcon = function(msg, session, next) {
+Handler.prototype.AddCoin = function(msg, session, next) {
 	var player = self.app.PlayerManager.get(session.uid);
 	var result;
 	if(!player) {
