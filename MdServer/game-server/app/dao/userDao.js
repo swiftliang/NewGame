@@ -5,7 +5,7 @@ var utils = require('../util/utils')
 var userDao = module.exports;
 
 userDao.getUserInfo = function (username, passwd, cb) {
-    var sql = 'select * from User where name = ?';
+    var sql = 'select * from userinfo where name = ?';
     var args = [username];
 
     pomelo.app.get('dbclient').query(sql, args, function(err, res) {
@@ -26,7 +26,7 @@ userDao.getUserInfo = function (username, passwd, cb) {
 };
 
 userDao.getUserByName = function (uername, cb) {
-    var sql = 'select * from User where id = ?';
+    var sql = 'select * from userinfo where id = ?';
     var args = [uid];
     pomelo.app.get('dbclient').query(sql, args, function(err, res) {
         if(err != null) {
@@ -44,7 +44,7 @@ userDao.getUserByName = function (uername, cb) {
 };
 
 userDao.getUserById = function(uid, cb) {
-    var sql = 'select * from User where id =?';
+    var sql = 'select * from userinfo where id =?';
     var args = [uid];
     pomelo.app.get('dbclient').query(sql, args, function(err, res){
         if(err != null){

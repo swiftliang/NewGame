@@ -38,7 +38,7 @@ pro.auth = function (token, cb) {
         cb(null, Code.SUCCESS, user);
     })
 
-    utils.invokeCallback(cb);
+    //utils.invokeCallback(cb);
 };
 
 var checkExpire = function (token, expire) {
@@ -46,5 +46,5 @@ var checkExpire = function (token, expire) {
         return true;
     }
 
-    return (Data.now() - token.timestamp) < expire;
+    return (Date.now() - token.timestamp) < expire;
 };

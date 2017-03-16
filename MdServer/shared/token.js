@@ -9,7 +9,7 @@ var crypto = require('crypto');
  * @return {String}     token string
  */
 module.exports.create = function(uid, timestamp, pwd) {
-    var msg = uid + '|' + timestamp;
+    var msg = uid + '$' + timestamp;
     var cipher = crypto.createCipher('aes256', pwd);
     var enc = cipher.update(msg, 'utf8', 'hex');
     enc += cipher.final('hex');
@@ -33,7 +33,7 @@ module.exports.parse = function(token, pwd) {
         console.error('[token] fail to decrypt token. %j', token);
         return null;
     }
-    var ts = dec.split('|');
+    var ts = dec.split('$');
     if(ts.length !== 2) {
         // illegal token
         return null;

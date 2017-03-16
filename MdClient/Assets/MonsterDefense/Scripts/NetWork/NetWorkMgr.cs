@@ -118,7 +118,7 @@ namespace NW
             {
                 _GameSvrConnection.connect(null, data =>
                 {
-                    Debug.Log("connect connector data: " + data);
+                    Debug.Log("connect connector data: " + data.ToString());
                     JsonObject msg = new JsonObject();
                     msg["uid"] = _loginInfo.uid;
                     msg["token"] = _loginInfo.token;

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "generic-pool": "*",
+    "generic-pool": "2.4.1",
     "crc" : ">=0.0.1",
     "mysql": "^2.13.0",
     "async": ">=0.0.1",

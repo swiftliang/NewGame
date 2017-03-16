@@ -1,0 +1,9 @@
+{
+  "host" : "115.159.224.115",
+  "port" : "3306",
+  "database" : "newgame",
+  "user" : "root",
+  "password" : "root",
+  "charset"  : "UTF8_GENERAL_CI",
+  "connectNum": "10"
+}
