@@ -1,5 +1,8 @@
 {
   "development":{
+    "auth": [
+      {"id": "auth-server-1", "host": "127.0.0.1", "port": 3650}
+    ],
     "gate": [
       {"id": "gate-server", "host": "127.0.0.1", "clientPort": 3014, "frontend": true}
     ],
@@ -8,6 +11,9 @@
     ]
   },
   "production":{
+    "auth": [
+      {"id": "auth-server-1", "host": "127.0.0.1", "port": 3650}
+    ],
     "gate": [
       {"id": "gate-server", "host": "127.0.0.1", "clientPort": 3014, "frontend": true}
     ],

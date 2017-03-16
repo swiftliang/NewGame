@@ -1,6 +1,6 @@
 var tokenService = require('../../../../../shared/token');
 var userDao = require('../../../dao/userDao');
-var Code = require('../../../../consts/code');
+var Code = require('../../../../../shared//code');
 
 var DEFAULT_SECRET = 'MDServer_session_secret';
 var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
@@ -21,7 +21,7 @@ var pro = Remote.prototype;
 pro.auth = function (token, cb) {
     var res = tokenService.parse(token, this.secret);
     if (!res) {
-        cb(null.Code.ENTRY.FA_TOKEN_INVALID);
+        cb(null, Code.ENTRY.FA_TOKEN_INVALID);
         return;
     }
 
@@ -37,6 +37,8 @@ pro.auth = function (token, cb) {
         }
         cb(null, Code.SUCCESS, user);
     })
+
+    utils.invokeCallback(cb);
 };
 
 var checkExpire = function (token, expire) {
