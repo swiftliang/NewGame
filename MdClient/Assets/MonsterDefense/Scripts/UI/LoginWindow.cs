@@ -24,7 +24,7 @@ public class LoginWindow : MonoBehaviour {
         if (inputName.text.Length <= 0 || inputPwd.text.Length <= 0)
             return;
         NetWorkMgr.Instance.Login(inputName.text, inputPwd.text, (result) => {
-            if(result == Constants.SUCCESS)
+            if(result.code == Constants.SUCCESS)
             {
 
             }

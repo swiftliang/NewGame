@@ -25,9 +25,10 @@ namespace NW
     public class NetWorkMgr : SingletonBehaviour<NetWorkMgr>
     {
 
-        private PomeloClient _GameSvrConnection;
-        private PomeloClient _GateClientConnection;
+        private PomeloClient _GameSvrConnection = new PomeloClient();
+        private PomeloClient _GateClientConnection = new PomeloClient();
         protected LoginInfo _loginInfo;
+        //protected GameSvrInfo _gsInfo;
         protected string _gameSvrIP;
         protected int _gameSvrPort;
 
@@ -42,11 +43,11 @@ namespace NW
             SceneManager.LoadSceneAsync("Login");
         }
 
-        public void Login(string strName, string strPwd, Action<Constants> cb)
+        public void Login(string strName, string strPwd, Action<GameInfo> cb)
         {
             if (__loginCoroutine != null)
             {
-                if (cb != null) cb(Constants.ALREADY_IN_LOGINING);
+                //if (cb != null) cb(Constants.ALREADY_IN_LOGINING);
                 return;
             }
 
@@ -64,7 +65,7 @@ namespace NW
             StartCoroutine(_doGetLoginInfo(strName, strPwd, cb));
         }
 
-        private IEnumerator _doLogin(string strName, string strPwd, Action<Constants> cb)
+        private IEnumerator _doLogin(string strName, string strPwd, Action<GameInfo> cb)
         {
             //get logininfo
             Constants result = Constants.INVALID;
@@ -78,7 +79,9 @@ namespace NW
             {
                 if (cb != null)
                 {
-                    cb(result);
+                    //cb(result);
+                    GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                    cb(ginfo);
                     __loginCoroutine = null;
                     loginState = LoginState.Offline;
                     yield break;
@@ -86,6 +89,50 @@ namespace NW
             }
 
             result = Constants.INVALID;
+            GetGameSvrInfo(code =>
+            {
+                result = code;
+            });
+            yield return new WaitUntil(() => result != Constants.INVALID);
+            if (result != Constants.SUCCESS)
+            {
+                if (cb != null)
+                {
+                    //cb(result);
+                    GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                    cb(ginfo);
+                    __loginCoroutine = null;
+                    loginState = LoginState.Offline;
+                    yield break;
+                }
+            }
+
+            LoginGameServer(cb);
+        }
+
+
+        public void LoginGameServer(Action<GameInfo> cb)
+        {
+            _GameSvrConnection.disconnect();
+            _GameSvrConnection.initClient(_gameSvrIP, _gameSvrPort, () =>
+            {
+                _GameSvrConnection.connect(data =>
+                {
+                    Debug.Log("connect connector data: " + data);
+                    JsonObject msg = new JsonObject();
+                    msg["uid"] = _loginInfo.uid;
+                    msg["token"] = _loginInfo.token;
+                    msg["Game"] = "MDGame";
+                    _GameSvrConnection.request("connector.entryHandler.enter", msg, result =>
+                    {
+                        if (cb != null)
+                        {
+                            GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                            cb(ginfo);
+                        }
+                    });
+                });
+            });
         }
 
         private IEnumerator _doRegister(string strName, string strPwd, Action<Constants> cb)
@@ -116,11 +163,7 @@ namespace NW
 
             loginState = LoginState.GettingSvrInfo;
 
-            _GameSvrConnection.disconnect();
-
-            _gameSvrIP = null;
-            _gameSvrPort = -1;
-
+            StartCoroutine(_doGetGsInfo(cb));
             /*_GameSvrConnection.on("Disconnect", msg =>
             {
             Debug.logger.Log("Get gameSvr info from gate failed! Reason: ", msg["reason"]);
@@ -128,6 +171,35 @@ namespace NW
             });*/
         }
 
+        private IEnumerator _doGetGsInfo(Action<Constants> cb)
+        {
+            _GateClientConnection.disconnect();
+
+            _gameSvrIP = null;
+            _gameSvrPort = -1;
+
+            Constants code = Constants.INVALID;
+            _GateClientConnection.initClient(_loginInfo.gateHost, _loginInfo.gatePort, () =>
+            {
+                _GateClientConnection.connect((data) =>
+                {
+                    Debug.Log("connect gate data: " + data);
+                    SimpleJson.JsonObject msg = new SimpleJson.JsonObject();
+                    msg["uid"] = _loginInfo.uid;
+                    //msg["token"] = _loginInfo.token;
+                    _GateClientConnection.request("gate.gateHandler.queryEntry", msg, (result) =>
+                    {
+                        code = (Constants)Convert.ToInt32(result["code"]);
+                        _gameSvrIP = (string)result["host"];
+                        _gameSvrPort = Convert.ToInt32(result["port"]);
+                    });
+                });
+            });
+
+            yield return new WaitUntil(() => code != Constants.INVALID);
+            if (cb != null)
+                cb(code);
+        }
         private IEnumerator _doGetLoginInfo(string strName, string strPwd, Action<Constants> cb)
         {
             WWWForm wf = new WWWForm();

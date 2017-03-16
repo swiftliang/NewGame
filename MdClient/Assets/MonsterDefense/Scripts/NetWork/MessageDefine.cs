@@ -13,4 +13,11 @@ namespace NW
         public string gateHost;
         public int gatePort;
     }
+
+    public class GameInfo : MessageBase
+    {
+        public int coin;
+        public string stars;
+        public string skills;
+    }
 }
