@@ -1,0 +1,11 @@
+{
+  "loginServer": {
+    "loginHost": "127.0.0.1",
+    "loginPort": 6688
+  },
+
+  "gateServer": {
+    "gateHost": "127.0.0.1",
+    "gatePort": 3014
+  }
+}

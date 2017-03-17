@@ -1,27 +1,39 @@
+/**
+ *
+ * 登录认证服务器主文件
+ */
 var express = require('express');
-var app = express.createServer();
+var http = require('http');
+var path = require('path');
+//var CONSTDEFINE = require('./const/constDefine.js');
+// 引入路由定义文件
+var localLogin = require('./routes/localLogin.js');
 
-app.configure(function(){
-  app.use(express.methodOverride());
-  app.use(express.bodyParser());
-  app.use(app.router);
-  app.set('view engine', 'jade');
-  app.set('views', __dirname + '/public');
-  app.set('view options', {layout: false});
-  app.set('basepath',__dirname + '/public');
-});
+var app = express();
 
-app.configure('development', function(){
-  app.use(express.static(__dirname + '/public'));
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-});
+// 环境设置
+app.set('port', process.env.PORT || 3000);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.use(express.favicon());
+app.use(express.logger('dev'));
+app.use(express.bodyParser());
+app.use(express.methodOverride());
+app.use(app.router);
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.configure('production', function(){
-  var oneYear = 31557600000;
-  app.use(express.static(__dirname + '/public', { maxAge: oneYear }));
+// 开发环境设置
+if ('development' == app.get('env')) {
   app.use(express.errorHandler());
-});
+}
 
-console.log("Web server has started.\nPlease log on http://127.0.0.1:3001/index.html");
+/*
+ *  为不同的请求路径分发不同路由，具体的不同渠道登录、注册，都在这里分发到具体逻辑
+ * */
+app.post('/login', localLogin.login);                 //本地登录
+app.post('/register', localLogin.register);           //本地注册
+app.post('/quickRegister', localLogin.quickRegister); //快速登录
 
-app.listen(3001);
+//设置监听端口
+app.listen(6688);
+console.log('登录认证服务器启动成功');

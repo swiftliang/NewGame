@@ -1,6 +1,7 @@
-var tokenService = require('../../../../../shared/token');
+var tokenService = require('../../../../../shared/tokenService');
 var userDao = require('../../../dao/userDao');
-var Code = require('../../../../../shared//code');
+var Code = require('../../../../../shared/code');
+var CONST = require('../../../../../shared/const')
 
 var DEFAULT_SECRET = 'MDServer_session_secret';
 var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
@@ -12,8 +13,8 @@ module.exports = function (app) {
 var Remote = function (app) {
     this.app = app;
     var session = app.get('session') || {};
-    this.secret = session.secret || DEFAULT_SECRET;
-    this.expire = session.expire || DEFAULT_EXPIRE;
+    this.secret = CONST.TOKEN_SECRET;
+    this.expire = CONST.TOKEN_EXPIRE;
 };
 
 var pro = Remote.prototype;

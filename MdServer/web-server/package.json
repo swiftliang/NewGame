@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "express": "3.4.8"
+    "express": "3.4.8",
+    "generic-pool": "^3.1.7",
+    "ejs": "*",
+    "mysql": "2.10.2",
+    "log4js": "0.6.33",
+    "fs": "0.0.2",
+    "async": "2.0.0-rc.2"
   }
 }

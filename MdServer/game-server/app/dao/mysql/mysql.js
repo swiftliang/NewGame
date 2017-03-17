@@ -1,5 +1,5 @@
 /**
- * Created by baoyan on 2016/3/24 0024.
+ *
  */
 var Pool = require('generic-pool');
 

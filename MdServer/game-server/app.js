@@ -1,5 +1,5 @@
 var pomelo = require('pomelo'),
-    mysqlConfig = require('./config/mysql.json'),
+    mysqlConfig = require('../shared/config/mysql.json'),
     sqlClient = require('./app/dao/mysql/mysql.js');
 var sync = require('pomelo-sync-plugin');
 var PlayerManager = require('./app/domain/PlayerManager');
