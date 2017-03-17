@@ -5,7 +5,8 @@ using SimpleJson;
 using Pomelo.DotNetClient;
 using System;
 using UnityEngine.SceneManagement;
-using JsonFx.Json;
+//using JsonFx.Json;
+using Pathfinding.Serialization.JsonFx;
 
 namespace NW
 {
@@ -100,7 +101,8 @@ namespace NW
                 if (cb != null)
                 {
                     //cb(result);
-                    GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                    //GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                    GameInfo ginfo = JsonReader.Deserialize<GameInfo>(result.ToString());
                     cb(ginfo);
                     __loginCoroutine = null;
                     loginState = LoginState.Offline;
