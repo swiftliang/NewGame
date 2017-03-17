@@ -26,11 +26,11 @@ userDao.getUserInfo = function (username, passwd, cb) {
 };
 
 userDao.getUserByName = function (uername, cb) {
-    var sql = 'select * from userinfo where id = ?';
-    var args = [uid];
+    var sql = 'select * from userinfo where userName = ?';
+    var args = [uername];
     pomelo.app.get('dbclient').query(sql, args, function(err, res) {
         if(err != null) {
-            utils.invokeCallback(cb, err, message, null);
+            utils.invokeCallback(cb, err, null);
         } else {
             if(!!res && res.length === 1) {
                 var rs = res[0];

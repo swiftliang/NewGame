@@ -1,6 +1,8 @@
 
 var skill = function (opts) {
-    this.skills = opts.split(",");
+    if(opts) {
+        this.skills = opts.split(",");
+    }
 };
 
 module.exports = skill;

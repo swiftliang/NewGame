@@ -4,6 +4,7 @@ MdServer/game-server/node_modules
 MdServer/web-server/node_modules
 MdServer/.idea
 loginWebServer/.idea
+loginWebServer/logs
 MdClient/Library
 MdClient/obj
 MdClient/Temp

@@ -10,18 +10,22 @@ mdDao.getGameInfoByuId = function(userId, cb) {
 
     pomelo.app.get('dbclient').query(sql, args, function(err, res){
         if(err !== null) {
-            utils.invokeCallback(cb, err, null);
+            utils.invokeCallback(cb, err.message, null);
         } else {
-            var userId = 0;
-            if(!!res && res.length === 1) {
-                var player = createPlayer(res);
-                utils.invokeCallback(cb, null, player);
+            //var userId = 0;
+            if(!!res && res.length >= 1) {
+                var player = createPlayer(res[0]);
+                utils.invokeCallback(cb, null, null, player);
+            }
+            else {
+                CreateGameInfo(userId, cb);
+                //utils.invokeCallback(cb, null, []);
             }
         }
     });
 };
 
-mdDao.CreateGameInfo = function(userId, cb) {
+var CreateGameInfo = function(userId, cb) {
     var sql = 'insert into MDGame (uid, coin, stars) value (?, ?, ?)';
     var args = [userId, 100, 0];
 
@@ -29,7 +33,7 @@ mdDao.CreateGameInfo = function(userId, cb) {
         if(err) {
             utils.invokeCallback(cb, err, null);
         } else {
-            var player = createPlayer(res);
+            var player = createPlayer(res[0]);
             utils.invokeCallback(cb, null, player);
         }
     });

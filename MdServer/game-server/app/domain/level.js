@@ -1,12 +1,16 @@
 
 var level = function (opts) {
-    this.levels = opts.split(",");
+    if(opts) {
+        this.levels = opts.split(",");
+    }
 };
 
 module.exports = level;
 
 level.prototype.unlock = function(star) {
-    this.levels.push(star);
+    if(star) {
+        this.levels.push(star);
+    }
 };
 
 level.prototype.toString = function() {

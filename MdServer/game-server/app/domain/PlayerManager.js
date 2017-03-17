@@ -1,7 +1,11 @@
 /**
  * Created by Administrator on 2017/3/13 0013.
  */
-var PlayerManager =  function() {
+module.exports =  function() {
+    return new PlayerManager();
+};
+
+var PlayerManager = function() {
     this.players = {};
 };
 
@@ -21,5 +25,3 @@ PlayerManager.prototype.get = function(uid) {
 PlayerManager.prototype.remove = function(uid) {
     delete this.players[uid];
 };
-
-module.exports = PlayerManager;

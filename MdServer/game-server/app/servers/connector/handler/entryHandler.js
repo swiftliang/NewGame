@@ -1,4 +1,4 @@
-var Code = require('../../../consts/code');
+var Code = require('../../../../../shared//code');
 var async = require('async');
 var mdDao = require('../../../dao/mdDao');
 
@@ -29,7 +29,7 @@ Handler.prototype.enter = function(msg, session, next) {
 		function(cb) {
 			self.app.rpc.auth.authRemote.auth(session, token, cb);
 		},function(code, user, cb) {
-			if(code !== Code.SUCCESS) {
+			if(code !== Code.OK) {
 				next(null, {code: code});
 				return;
 			}
@@ -38,45 +38,38 @@ Handler.prototype.enter = function(msg, session, next) {
 				next(null, {code: Code.ENTRY.FA_USER_NOT_EXIST});
 				return;
 			}
-			if(msg.game === 'MDGame')
-			{
-				mdDao.getGameInfoByuId(user.uid, cb);
-			}
-		}, function(err, res, cb) {
-			if(!err) {
-				mdDao.CreateGameInfo(user.uid, function(err, player) {
-					if(err) {
-						next(null, {code: Code.FA_PLAYER_CREATE_FAILED});
-						return;
-					}
 
-					res = player;
-				});
+			mdDao.getGameInfoByuId(user.uid, cb);
+		}, function(err, res, cb) {
+
+			if(!res) {
+				next(null, {code: Code.FA_PLAYER_CREATE_FAILED});
+				return;
 			}
+
 			gameInfo = res;
-			self.app.get('sessionService').kick(uid, cb);
+			self.app.get('sessionService').kick(gameInfo.uid, cb);
 		}, function(cb) {
-			session.bind(uid, cb);
+			session.bind(gameInfo.uid, cb);
 		}, function(cb) {
 			if(!gameInfo || gameInfo.length === 0) {
 				next(null, {code: Code.DATA_ERROR});
 				return;
 			}
 
-			gameInfo = gameInfo[0];
-			session.set('playername', gameInfo.name);
+			self.app.get('PlayerManager').add(gameInfo.uid, gameInfo);
+			session.set('playerid', gameInfo.uid);
 			session.on('closed', onUserLeave.bind(null, self.app));
 			session.pushAll(cb);
-			app.PlayerManager.add(gameInfo.uid, gameInfo);
 		}
 	], function(err) {
 		if(err) {
 			next(err, {code: Code.FAILED});
 			return;
 		}
+
+		next(null, {code: Code.OK, gameInfo: JSON.stringify(gameInfo)});
 	});
-	
-	next(null, {code: Code.SUCCESS, gameInfo: JSON.stringify(gameInfo)});
 };
 
 var onUserLeave = function(app, session, reason) {

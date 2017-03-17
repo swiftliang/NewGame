@@ -35,7 +35,7 @@ pro.auth = function (token, cb) {
             cb(err);
             return;
         }
-        cb(null, Code.SUCCESS, user);
+        cb(null, Code.OK, user);
     })
 
     //utils.invokeCallback(cb);

@@ -1,8 +1,8 @@
 
 
 var User = function(opts){
-    this.id = opts.id;
-    this.name = opts.name;
+    this.uid = opts.id;
+    this.name = opts.userName;
     this.from = opts.from || '';
     this.password = opts.password;
     this.lastLoginTime = opts.lastLoginTime;

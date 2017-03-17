@@ -7,9 +7,9 @@ var MDGame = function(opts) {
     this.uid = opts.uid;
     this.coin = opts.coin;
     this.coinUpdataTime = opts.coinUpdataTime;
-    this.stars = opts.stars;
+    this.stars = opts.stars || 0;
     this.starUpdataTime = opts.starUpdataTime;
-    this.levels = level(opts.level);
+    this.levels = level(opts.levels);
     this.skills = skill(opts.skills);
 };
 

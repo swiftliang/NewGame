@@ -57,6 +57,8 @@ app.configure('production|development', 'connector', function(){
       useDict : true,
       useProtobuf : true
     });
+
+  app.set('PlayerManager', new PlayerManager());
 });
 
 
