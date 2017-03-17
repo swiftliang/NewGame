@@ -1,3 +1,4 @@
+loginWebServer/node_modules
 MdServer/game-server/node_modules
 *.log
 MdServer/web-server/node_modules
