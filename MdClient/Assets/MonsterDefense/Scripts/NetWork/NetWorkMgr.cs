@@ -5,6 +5,7 @@ using SimpleJson;
 using Pomelo.DotNetClient;
 using System;
 using UnityEngine.SceneManagement;
+using JsonFx.Json;
 
 namespace NW
 {
@@ -128,7 +129,8 @@ namespace NW
                         if (cb != null)
                         {
                             Message retMsg = (Message)result;
-                            GameInfo ginfo = JsonUtility.FromJson<GameInfo>(retMsg.rawString);
+                            //GameInfo ginfo = JsonUtility.FromJson<GameInfo>(retMsg.rawString);
+                            GameInfo ginfo = JsonReader.Deserialize<GameInfo>(retMsg.rawString);
                             cb(ginfo);
                             if(ginfo.code == Constants.SUCCESS)
                             {

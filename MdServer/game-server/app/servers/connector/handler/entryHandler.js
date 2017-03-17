@@ -69,7 +69,7 @@ Handler.prototype.enter = function(msg, session, next) {
 		}
 
 
-		next(null, {code: Code.OK, coin: gameInfo.coin, levels: gameInfo.levels.toString(), skills: gameInfo.skills.toString()});//JSON.stringify(gameInfo)
+		next(null, {code: Code.OK, gameInfo: {coin: gameInfo.coin, levels: gameInfo.levels.toString(), skills: gameInfo.skills.toString()}});//JSON.stringify(gameInfo)
 	});
 };
 
