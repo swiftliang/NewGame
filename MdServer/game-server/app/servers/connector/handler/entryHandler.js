@@ -68,7 +68,8 @@ Handler.prototype.enter = function(msg, session, next) {
 			return;
 		}
 
-		next(null, {code: Code.OK, gameInfo: JSON.stringify(gameInfo)});
+
+		next(null, {code: Code.OK, coin: gameInfo.coin, levels: gameInfo.levels.toString(), skills: gameInfo.skills.toString()});//JSON.stringify(gameInfo)
 	});
 };
 
@@ -77,7 +78,7 @@ var onUserLeave = function(app, session, reason) {
 		return;
 	}
 
-	app.PlayerManager.remove(session.uid);
+	app.get('PlayerManager').remove(session.uid);
 };
 /**
  * Publish route for mqtt connector.

@@ -127,7 +127,8 @@ namespace NW
                     {
                         if (cb != null)
                         {
-                            GameInfo ginfo = JsonUtility.FromJson<GameInfo>(result.ToString());
+                            Message retMsg = (Message)result;
+                            GameInfo ginfo = JsonUtility.FromJson<GameInfo>(retMsg.rawString);
                             cb(ginfo);
                             if(ginfo.code == Constants.SUCCESS)
                             {
@@ -193,9 +194,9 @@ namespace NW
                     //msg["token"] = _loginInfo.token;
                     _GateClientConnection.request(RequestMsg.REQUEST_CONNECTOR, msg, (result) =>
                     {
-                        code = (Constants)Convert.ToInt32(result["code"]);
-                        _gameSvrIP = (string)result["host"];
-                        _gameSvrPort = Convert.ToInt32(result["port"]);
+                       code = (Constants)Convert.ToInt32(result.data["code"]);
+                        _gameSvrIP = (string)result.data["host"];
+                        _gameSvrPort = Convert.ToInt32(result.data["port"]);
                     });
                 });
             });

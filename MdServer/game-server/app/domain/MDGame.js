@@ -9,8 +9,8 @@ var MDGame = function(opts) {
     this.coinUpdataTime = opts.coinUpdataTime;
     this.stars = opts.stars || 0;
     this.starUpdataTime = opts.starUpdataTime;
-    this.levels = level(opts.levels);
-    this.skills = skill(opts.skills);
+    this.levels = new level(opts.levels);
+    this.skills = new skill(opts.skills);
 };
 
 util.inherits(MDGame, Persistent);

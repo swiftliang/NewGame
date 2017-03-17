@@ -2,6 +2,8 @@
 var skill = function (opts) {
     if(opts) {
         this.skills = opts.split(",");
+    } else {
+        this.skills = [];
     }
 };
 

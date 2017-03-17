@@ -2,6 +2,8 @@
 var level = function (opts) {
     if(opts) {
         this.levels = opts.split(",");
+    }else {
+        this.levels = [];
     }
 };
 
@@ -14,5 +16,5 @@ level.prototype.unlock = function(star) {
 };
 
 level.prototype.toString = function() {
-    this.levels.toString();
+    return this.levels.toString();
 };

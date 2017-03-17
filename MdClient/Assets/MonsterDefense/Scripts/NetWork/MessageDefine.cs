@@ -17,11 +17,11 @@ namespace NW
     public class GInfoDetail
     {
         public int coin;
-        public string stars;
+        public string levels;
         public string skills;
     }
     public class GameInfo : MessageBase
     {
-        public GInfoDetail details;
+        public GInfoDetail gameInfo;
     }
 }
