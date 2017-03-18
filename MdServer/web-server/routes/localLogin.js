@@ -47,7 +47,7 @@ exports.login = function(req, res){
     // 验证成功，返回gate服务器地址
     console.log('登录成功');
     res.send({
-      code: CODE.SUCCESS,
+      code: CODE.OK,
       uid: userinfo[0].id,
       token: tokenService.create(userinfo[0].id, Date.now(), CONST.TOKEN_SECRET),
       gateHost: serverConfig.gateServer.gateHost,

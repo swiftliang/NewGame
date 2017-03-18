@@ -1,4 +1,4 @@
-var Code = require('../../../../../shared//code');
+var CODE = require('../../../../../shared/code');
 var async = require('async');
 var mdDao = require('../../../dao/mdDao');
 
@@ -21,7 +21,7 @@ var Handler = function(app) {
 Handler.prototype.enter = function(msg, session, next) {
 	var token = msg.token, self = this;
 	if(!token) {
-		next(new Error('invalid entry request: empty token'), {code: Code.FAILED});
+		next(new Error('invalid entry request: empty token'), {code: CODE.FAILED});
 		return;
 	}
 	var gameInfo;
@@ -29,13 +29,13 @@ Handler.prototype.enter = function(msg, session, next) {
 		function(cb) {
 			self.app.rpc.auth.authRemote.auth(session, token, cb);
 		},function(code, user, cb) {
-			if(code !== Code.OK) {
+			if(code !== CODE.OK) {
 				next(null, {code: code});
 				return;
 			}
 
 			if(!user) {
-				next(null, {code: Code.ENTRY.FA_USER_NOT_EXIST});
+				next(null, {code: CODE.ENTRY.FA_USER_NOT_EXIST});
 				return;
 			}
 
@@ -43,7 +43,7 @@ Handler.prototype.enter = function(msg, session, next) {
 		}, function(err, res, cb) {
 
 			if(!res) {
-				next(null, {code: Code.FA_PLAYER_CREATE_FAILED});
+				next(null, {code: CODE.ENTRY.FA_PLAYER_CREATE_FAILED});
 				return;
 			}
 
@@ -53,7 +53,7 @@ Handler.prototype.enter = function(msg, session, next) {
 			session.bind(gameInfo.uid, cb);
 		}, function(cb) {
 			if(!gameInfo || gameInfo.length === 0) {
-				next(null, {code: Code.DATA_ERROR});
+				next(null, {code: CODE.FAILED});
 				return;
 			}
 
@@ -64,12 +64,12 @@ Handler.prototype.enter = function(msg, session, next) {
 		}
 	], function(err) {
 		if(err) {
-			next(err, {code: Code.FAILED});
+			next(err, {code: CODE.FAILED});
 			return;
 		}
 
 
-		next(null, {code: Code.OK, gameInfo: {coin: gameInfo.coin, levels: gameInfo.levels.toString(), skills: gameInfo.skills.toString()}});//JSON.stringify(gameInfo)
+		next(null, {code: CODE.OK, gameInfo: {coin: gameInfo.coin, levels: gameInfo.levels.toString(), skills: gameInfo.skills.toString()}});//JSON.stringify(gameInfo)
 	});
 };
 
@@ -91,7 +91,7 @@ var onUserLeave = function(app, session, reason) {
 Handler.prototype.publish = function(msg, session, next) {
 	var result = {
 		topic: 'publish',
-		payload: JSON.stringify({code: 200, msg: 'publish message is ok.'})
+		payload: JSON.stringify({code: CODE.OK, msg: 'publish message is ok.'})
 	};
   next(null, result);
 };
@@ -107,14 +107,14 @@ Handler.prototype.publish = function(msg, session, next) {
 Handler.prototype.subscribe = function(msg, session, next) {
 	var result = {
 		topic: 'subscribe',
-		payload: JSON.stringify({code: 200, msg: 'subscribe message is ok.'})
+		payload: JSON.stringify({code: CODE.OK, msg: 'subscribe message is ok.'})
 	};
   next(null, result);
 };
 
 Handler.prototype.StartGame = function(msg, session, next) {
 	var result = {
-		code: Code.SUCCESS
+		code: CODE.OK
 	};
 	next(null, result);
 };
@@ -126,14 +126,14 @@ Handler.prototype.UnlockLevel = function(msg, session, next) {
 		player.stars += msg.star;
 		player.levels.push(msg.level);
 		result = {
-			code: Code.SUCCESS,
+			code: CODE.OK,
 			star: player.stars,
 			level: player.levels.toString()
 		};
 		player.level();
 	} else {
 		result = {
-			code: Code.DATA_ERROR
+			code: CODE.FAILED
 		};
 	}
 	next(null, result);
@@ -145,12 +145,12 @@ Handler.prototype.AddCoin = function(msg, session, next) {
 	if(!player) {
 		player.coin += msg.coin;
 		result = {
-			code: Code.SUCCESS,
+			code: CODE.OK,
 			star: player.coin
 		};
 	} else {
 		result = {
-			code: Code.DATA_ERROR
+			code: CODE.FAILED
 		};
 	}
 	next(null, result);
