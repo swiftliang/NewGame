@@ -1,10 +1,10 @@
 var tokenService = require('../../../../../shared/tokenService');
 var userDao = require('../../../dao/userDao');
-var Code = require('../../../../../shared/code');
+var CODE = require('../../../../../shared/code');
 var CONST = require('../../../../../shared/const')
 
-var DEFAULT_SECRET = 'MDServer_session_secret';
-var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
+//var DEFAULT_SECRET = 'MDServer_session_secret';
+//var DEFAULT_EXPIRE = 6 * 60 * 60 * 1000;
 
 module.exports = function (app) {
     return new Remote(app);
@@ -22,12 +22,12 @@ var pro = Remote.prototype;
 pro.auth = function (token, cb) {
     var res = tokenService.parse(token, this.secret);
     if (!res) {
-        cb(null, Code.ENTRY.FA_TOKEN_INVALID);
+        cb(null, CODE.ENTRY.FA_TOKEN_INVALID);
         return;
     }
 
     if (!checkExpire(res, this.expire)) {
-        cb(null, Code.ENTRY.FA_TOKEN_EXPIRE);
+        cb(null, CODE.ENTRY.FA_TOKEN_EXPIRE);
         return;
     }
 
@@ -36,7 +36,7 @@ pro.auth = function (token, cb) {
             cb(err);
             return;
         }
-        cb(null, Code.OK, user);
+        cb(null, CODE.OK, user);
     })
 
     //utils.invokeCallback(cb);
