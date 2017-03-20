@@ -42,7 +42,7 @@ namespace NW
 
         private void Start()
         {
-            SceneManager.LoadSceneAsync("Login");
+            SceneManager.LoadSceneAsync(GameSetting.LOGIN_SCENE);
         }
 
         public void Login(string strName, string strPwd, Action<GameInfo> cb)

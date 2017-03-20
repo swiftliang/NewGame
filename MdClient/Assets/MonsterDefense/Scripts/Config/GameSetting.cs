@@ -12,6 +12,7 @@ public class GameSetting : MonoBehaviour {
     public const string GAME_SCENE = "GamePlay";
     public const string MAP_SCENE = "Map";
     public const string MAIN_SCENE = "MainMenu";
+    public const string LOGIN_SCENE = "Login";
 
     public const string LOCK_KEY = "key";
     public const string STAR_KEY = "star";

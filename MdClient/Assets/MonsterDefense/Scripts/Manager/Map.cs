@@ -14,7 +14,7 @@ public class Map : MonoBehaviour {
 
     public void updateMoney()
     {
-        moneyText.text = PlayerPrefs.GetInt(GameSetting.MONEY_KEY) + "";
+        moneyText.text = GameData.Instance.Coin/*PlayerPrefs.GetInt(GameSetting.MONEY_KEY)*/ + "";
     }
 
     public void activeTable (GameObject table) {

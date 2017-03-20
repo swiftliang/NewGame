@@ -13,7 +13,8 @@ public class MainMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void quitGame () {
-        Application.Quit();
+        //Application.Quit();
+        SceneManager.LoadScene(GameSetting.LOGIN_SCENE);
 	}
 	public void moreGame () {
 		AdsControl.Instance.showAds ();

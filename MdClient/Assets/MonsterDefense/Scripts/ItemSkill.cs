@@ -40,7 +40,7 @@ public class ItemSkill : MonoBehaviour {
 
     public void buy()
     {
-        int money = PlayerPrefs.GetInt(GameSetting.MONEY_KEY);
+        int money = GameData.Instance.Coin;//PlayerPrefs.GetInt(GameSetting.MONEY_KEY);
         if (money > cost)
         {
             SoundManager.instance.playSoundBuy();
