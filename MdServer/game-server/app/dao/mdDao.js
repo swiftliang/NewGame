@@ -26,8 +26,8 @@ mdDao.getGameInfoByuId = function(userId, cb) {
 };
 
 var CreateGameInfo = function(userId, cb) {
-    var sql = 'insert into MDGame (uid, coin, stars) value (?, ?, ?)';
-    var args = [userId, 100, 0];
+    var sql = 'insert into MDGame (uid, coin, stars, levels) value (?, ?, ?)';
+    var args = [userId, 100, 0, '1'];
 
     pomelo.app.get('dbclient').query(sql, args, function(err, res) {
         if(err) {

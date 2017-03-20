@@ -24,4 +24,15 @@ namespace NW
     {
         public GInfoDetail gameInfo;
     }
+
+    public class LevelInfo : MessageBase
+    {
+        public int stars;
+        public string levels;
+    }
+
+    public class CoinInfo : MessageBase
+    {
+        public int coin;
+    }
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using NW;
 
 public class UIManager : MonoBehaviour {
 
@@ -66,20 +67,35 @@ public class UIManager : MonoBehaviour {
         // unlock next level
         PlayerPrefs.SetInt(GameSetting.LOCK_KEY + (Data.instance.level + 1), GameSetting.TRUE_RESULT);
         // rate
+        int nStar = 0;
         if (_gameManager._tower.hpPre < _gameManager._tower.hpMax / 3) {
-            PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, GameSetting.TRUE_RESULT);
+            //PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, GameSetting.TRUE_RESULT);
+            nStar = 1;
             imgStar.GetComponent<Image>().sprite = star[0];
         }
         if (_gameManager._tower.hpPre > _gameManager._tower.hpMax / 3 && _gameManager._tower.hpPre < _gameManager._tower.hpMax * 2 / 3)
         {
-            PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, 2);
+            //PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, 2);
+            nStar = 2;
             imgStar.GetComponent<Image>().sprite = star[1];
         }
         if (_gameManager._tower.hpPre > _gameManager._tower.hpMax * 2 / 3)
         {
-            PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, 3);
+            //PlayerPrefs.SetInt(GameSetting.STAR_KEY + Data.instance.level, 3);
+            nStar = 3;
             imgStar.GetComponent<Image>().sprite = star[2];
         }
+        NetWorkMgr.Instance.UnlockLevel(Data.instance.level, nStar, code =>
+        {
+            if(code == Constants.SUCCESS)
+            {
+                Debug.Log("unlock level: " + Data.instance.level + 1);
+            }
+            else
+            {
+                Debug.Log("unlock level error");
+            }
+        });
 		AdsControl.Instance.showAds ();
     }
 

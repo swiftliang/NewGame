@@ -119,12 +119,12 @@ Handler.prototype.StartGame = function(msg, session, next) {
 	next(null, result);
 };
 
-Handler.prototype.UnlockLevel = function(msg, session, next) {
+Handler.prototype.UpdateStar = function(msg, session, next) {
 	var player = self.app.PlayerManager.get(session.uid);
 	var result;
 	if(!player) {
 		player.stars += msg.star;
-		player.levels.push(msg.level);
+		player.levels.UpdateStar(msg.level, msg.star);
 		result = {
 			code: CODE.OK,
 			star: player.stars,
@@ -146,7 +146,7 @@ Handler.prototype.AddCoin = function(msg, session, next) {
 		player.coin += msg.coin;
 		result = {
 			code: CODE.OK,
-			star: player.coin
+			coin: player.coin
 		};
 	} else {
 		result = {

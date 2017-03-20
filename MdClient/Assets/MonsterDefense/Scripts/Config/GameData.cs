@@ -12,9 +12,29 @@ public class GameData : SingletonBehaviour<GameData>
     public void SetGameData(GameInfo gif)
     {
         Coin = gif.gameInfo.coin;
-        if (gif.gameInfo.levels.Length > 0)
+
+        UpdateLevels(gif.gameInfo.levels);
+        UpdateSkills(gif.gameInfo.skills);
+       
+    }
+
+    public void UpdateSkills(string strSkills)
+    {
+        if (strSkills.Length > 0)
         {
-            string[] levels = gif.gameInfo.levels.Split(',');
+            this.skills = strSkills.Split(',');
+        }
+        else
+        {
+            this.skills = null;
+        }
+    }
+
+    public void UpdateLevels(string strlevels)
+    {
+        if (strlevels.Length > 0)
+        {
+            string[] levels = strlevels.Split(',');
             this.stars = new int[levels.Length];
             for (int i = 0; i < levels.Length; i++)
             {
@@ -25,21 +45,13 @@ public class GameData : SingletonBehaviour<GameData>
         {
             this.stars = null;
         }
-        if (gif.gameInfo.skills.Length > 0)
-        {
-            this.skills = gif.gameInfo.skills.Split(',');
-        }
-        else
-        {
-            this.skills = null;
-        }
     }
 
     public int GetLevelStar(int level)
     {
         if(this.stars != null && level < this.stars.Length)
         {
-            return this.stars[level];
+            return this.stars[level]-1;
         }
         return 0;
     }

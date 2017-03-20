@@ -250,6 +250,44 @@ namespace NW
             yield break;
         }
 
+        public void UnlockLevel(int star, int level, Action<Constants> cb)
+        {
+            JsonObject msg = new JsonObject();
+            msg["star"] = star;
+            msg["level"] = level;
+            _GameSvrConnection.request(RequestMsg.REQUEST_UNLOCKLEV, msg, result =>
+            {
+                LevelInfo lf = JsonReader.Deserialize<LevelInfo>(result.rawString);
+                if (lf.code == Constants.SUCCESS)
+                {
+                    GameData.Instance.UpdateLevels(lf.levels);
+                }
+                if(cb != null)
+                {
+                    cb(lf.code);
+                }
+            });
+        }
+
+        public void AddCoin(int coin, Action<Constants> cb)
+        {
+            JsonObject msg = new JsonObject();
+            msg["coin"] = coin;
+            _GameSvrConnection.request(RequestMsg.REQUEST_ADDCOIN, msg, result =>
+            {
+                CoinInfo lf = JsonReader.Deserialize<CoinInfo>(result.rawString);
+                if (lf.code == Constants.SUCCESS)
+                {
+                    GameData.Instance.Coin = lf.coin;
+                }
+
+                if(cb != null)
+                {
+                    cb(lf.code);
+                }
+            });
+        }
+
         public void Update()
         {
             _GateClientConnection.Update();
