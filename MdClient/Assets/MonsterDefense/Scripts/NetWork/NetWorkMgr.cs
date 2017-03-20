@@ -110,7 +110,25 @@ namespace NW
                 }
             }
 
-            LoginGameServer(cb);
+            GameInfo gif;
+            LoginGameServer(info =>
+            {
+                gif = info;
+                if(gif.code != Constants.SUCCESS)
+                {
+                    __loginCoroutine = null;
+                    loginState = LoginState.Offline;
+                }
+                else
+                {
+                    __loginCoroutine = null;
+                    loginState = LoginState.Logined;
+                }
+                if(cb != null)
+                {
+                    cb(gif);
+                }
+            });
         }
 
 
@@ -131,13 +149,8 @@ namespace NW
                         if (cb != null)
                         {
                             Message retMsg = (Message)result;
-                            //GameInfo ginfo = JsonUtility.FromJson<GameInfo>(retMsg.rawString);
                             GameInfo ginfo = JsonReader.Deserialize<GameInfo>(retMsg.rawString);
                             cb(ginfo);
-                            if(ginfo.code == Constants.SUCCESS)
-                            {
-                                loginState = LoginState.Logined;
-                            }
                         }
                     });
                 });
