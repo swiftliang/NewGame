@@ -3,6 +3,12 @@ using System.Collections;
 
 public class GameSetting : MonoBehaviour {
 
+    //tips
+    public const string PWD_ERROR = "用户名或密码错误";
+    public const string ACCOUNT_ERROR = "用户名和密码不能为空";
+    public const string REGISTER_OK = "注册成功请返回登录界面登录";
+    public const string REGISTER_PWDERROR = "输入密码不匹配";
+
     public const string GAME_SCENE = "GamePlay";
     public const string MAP_SCENE = "Map";
     public const string MAIN_SCENE = "MainMenu";

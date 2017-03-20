@@ -237,6 +237,12 @@ namespace NW
             yield break;
         }
 
+        public void Update()
+        {
+            _GateClientConnection.Update();
+            _GameSvrConnection.Update();
+        }
+
         private void OnApplicationQuit()
         {
             if (_GameSvrConnection != null)

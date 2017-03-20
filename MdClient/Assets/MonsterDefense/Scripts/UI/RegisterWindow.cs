@@ -11,6 +11,7 @@ public class RegisterWindow : MonoBehaviour {
     public InputField inputPwd2;
     public Button btnRegister;
     public Button btnBack;
+    public Text txtTip;
 
     public Transform LoginWindow;
 	// Use this for initialization
@@ -19,6 +20,7 @@ public class RegisterWindow : MonoBehaviour {
         inputPwd2.inputType = InputField.InputType.Password;
         btnRegister.onClick.AddListener(this.doRegister);
         btnBack.onClick.AddListener(this.doBack);
+        txtTip.gameObject.SetActive(false);
 	}
 
     void doRegister()

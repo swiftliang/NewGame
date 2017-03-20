@@ -5,8 +5,8 @@
 var sqlClient = require('../dao/mysql.js');
 var mysqlConfig = require('../../shared/config/mysql.json');
 var dataBase = new sqlClient(mysqlConfig);
-var logger = require('../service/logger.js').logger;
-var crypto = require('../service/crypto');
+var logger = require('./logger.js').logger;
+var crypto = require('./crypto');
 var dbService = module.exports;
 
 /*

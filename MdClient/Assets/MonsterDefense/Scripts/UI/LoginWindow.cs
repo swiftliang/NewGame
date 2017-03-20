@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using NW;
+using UnityEngine.SceneManagement;
 
 public class LoginWindow : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class LoginWindow : MonoBehaviour {
     public InputField inputPwd;
     public Button btnLogin;
     public Button btnRegister;
+    public Text txtTip;
 
     public Transform RegisterWindow;
 	// Use this for initialization
@@ -17,6 +19,7 @@ public class LoginWindow : MonoBehaviour {
         inputPwd.inputType = InputField.InputType.Password;
         btnLogin.onClick.AddListener(this.doLogin);
         btnRegister.onClick.AddListener(this.doRegister);
+        txtTip.gameObject.SetActive(false);
 	}
 
     void doLogin()
@@ -26,7 +29,7 @@ public class LoginWindow : MonoBehaviour {
         NetWorkMgr.Instance.Login(inputName.text, inputPwd.text, (result) => {
             if(result.code == Constants.SUCCESS)
             {
-
+                SceneManager.LoadScene(GameSetting.MAIN_SCENE);
             }
             else
             {
