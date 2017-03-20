@@ -29,6 +29,7 @@ public class LoginWindow : MonoBehaviour {
         NetWorkMgr.Instance.Login(inputName.text, inputPwd.text, (result) => {
             if(result.code == Constants.SUCCESS)
             {
+                GameData.Instance.SetGameData(result);
                 SceneManager.LoadScene(GameSetting.MAIN_SCENE);
             }
             else

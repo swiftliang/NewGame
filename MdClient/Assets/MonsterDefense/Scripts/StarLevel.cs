@@ -12,7 +12,8 @@ public class StarLevel : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		countStar = PlayerPrefs.GetInt (GameSetting.STAR_KEY+GetComponent<Unlock>().numberlevel);
+		//countStar = PlayerPrefs.GetInt (GameSetting.STAR_KEY+GetComponent<Unlock>().numberlevel);
+        countStar = GameData.Instance.GetLevelStar(GetComponent<Unlock>().numberlevel);
 		if (countStar == 1) {
 			oneStar.SetActive(true);
 		}

@@ -16,10 +16,10 @@ public class Unlock : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-	
-		checkLock = PlayerPrefs.GetInt (GameSetting.LOCK_KEY+numberlevel);
 
-		if (checkLock == GameSetting.TRUE_RESULT) {
+        checkLock = GameData.Instance.GetLevelStar(numberlevel);//PlayerPrefs.GetInt (GameSetting.LOCK_KEY+numberlevel);
+
+		if (checkLock >= GameSetting.TRUE_RESULT || numberlevel == 0) {
 			levelLock.SetActive (false);
 			unLock.SetActive (true);
 			Star.SetActive(true);
@@ -32,7 +32,8 @@ public class Unlock : MonoBehaviour {
 	}
 
 	public void playLevel(){
-		if (checkLock == 1) {
+        if (checkLock >= 1 || numberlevel == 0)
+        {
             Data.instance.level = numberlevel;
             Data.instance.setData(listEnemy,backGround);
 			//Application.LoadLevel(GameSetting.GAME_SCENE);
