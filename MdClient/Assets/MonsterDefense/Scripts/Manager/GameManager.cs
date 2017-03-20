@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using NW;
 
 public enum GameState { none,play,pause,end};
 public enum SkillState { none,ice,lighting,boom}
@@ -41,14 +42,22 @@ public class GameManager : MonoBehaviour {
 
     public void gameOver()
     {
-        GameSetting.instance.setMoneyPre(money);
+        //GameSetting.instance.setMoneyPre(money);
+        NetWorkMgr.Instance.UpdateCoin(money, code =>
+        {
+            money = GameData.Instance.Coin;
+        });
         setGameState(GameState.end);
         _uiManager.gameOver();
     }
 
     public void gameWin()
     {
-        GameSetting.instance.setMoneyPre(money);
+        //GameSetting.instance.setMoneyPre(money);
+        NetWorkMgr.Instance.UpdateCoin(money, code =>
+        {
+            money = GameData.Instance.Coin;
+        });
         setGameState(GameState.end);
         _uiManager.gameWin();
     }

@@ -20,7 +20,7 @@ namespace NW
         public static readonly string REQUEST_CONNECTOR = "gate.gateHandler.queryEntry";
         public static readonly string REQUEST_ENTER = "connector.entryHandler.enter";
         public static readonly string REQUEST_UNLOCKLEV = "connector.entryHandler.UpdateStar";
-        public static readonly string REQUEST_ADDCOIN = "connector.entryHandler.AddCoin";
+        public static readonly string REQUEST_ADDCOIN = "connector.entryHandler.UpdateCoin";
     }
     public class NotifyMsg
     {

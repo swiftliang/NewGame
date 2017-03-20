@@ -130,7 +130,7 @@ Handler.prototype.UpdateStar = function(msg, session, next) {
 			star: player.stars,
 			level: player.levels.toString()
 		};
-		player.level();
+		player.Level();
 	} else {
 		result = {
 			code: CODE.FAILED
@@ -139,15 +139,16 @@ Handler.prototype.UpdateStar = function(msg, session, next) {
 	next(null, result);
 };
 
-Handler.prototype.AddCoin = function(msg, session, next) {
+Handler.prototype.UpdateCoin = function(msg, session, next) {
 	var player = self.app.PlayerManager.get(session.uid);
 	var result;
 	if(!player) {
-		player.coin += msg.coin;
+		player.coin = msg.coin;
 		result = {
 			code: CODE.OK,
 			coin: player.coin
 		};
+		player.Coin();
 	} else {
 		result = {
 			code: CODE.FAILED

@@ -10,10 +10,10 @@ util.inherits(Persistent, EventEmitter);
 
 module.exports = Persistent;
 
-Persistent.prototype.coin = function() {
+Persistent.prototype.Coin = function() {
     this.emit('coin');
 };
 
-Persistent.prototype.level = function() {
+Persistent.prototype.Level = function() {
     this.emit('level');
 };

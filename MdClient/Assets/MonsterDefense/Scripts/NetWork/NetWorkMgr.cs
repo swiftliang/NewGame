@@ -269,7 +269,7 @@ namespace NW
             });
         }
 
-        public void AddCoin(int coin, Action<Constants> cb)
+        public void UpdateCoin(int coin, Action<Constants> cb)
         {
             JsonObject msg = new JsonObject();
             msg["coin"] = coin;
