@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: c9606ee7fd536cf41996d2f61fa3f1ea
+timeCreated: 1476156303
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: asd4
+    100002: group5
+    100004: joint1
+    100006: joint14
+    100008: joint15
+    100010: joint17
+    100012: joint18
+    100014: joint19
+    100016: joint19 1
+    100018: joint2
+    100020: joint3
+    100022: joint4
+    100024: joint5
+    100026: joint6
+    100028: joint7
+    100030: joint8
+    100032: Mouth
+    100034: transform1
+    100036: transform2
+    100038: transform3
+    100040: //RootNode
+    400000: asd4
+    400002: group5
+    400004: joint1
+    400006: joint14
+    400008: joint15
+    400010: joint17
+    400012: joint18
+    400014: joint19
+    400016: joint19 1
+    400018: joint2
+    400020: joint3
+    400022: joint4
+    400024: joint5
+    400026: joint6
+    400028: joint7
+    400030: joint8
+    400032: Mouth
+    400034: transform1
+    400036: transform2
+    400038: transform3
+    400040: //RootNode
+    4300000: asd4
+    7400000: Ying_Wu_Yu You
+    7400002: Ying_Wu_Yu ZhaYan
+    7400004: Ying_Wu_Yu BiaoYan
+    7400006: Ying_Wu_Yu ShouJi
+    7400008: Ying_Wu_Yu SiWang
+    9500000: //RootNode
+    13700000: asd4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - group5/joint1/transform3/Mouth
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ying_Wu_Yu You
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asd4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/joint1
+        weight: 1
+      - path: group5/joint1/joint2
+        weight: 1
+      - path: group5/joint1/joint2/joint3
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: group5/joint1/joint2/joint14
+        weight: 1
+      - path: group5/joint1/joint2/joint14/joint15
+        weight: 1
+      - path: group5/joint1/joint2/joint17
+        weight: 1
+      - path: group5/joint1/joint2/joint17/joint18
+        weight: 1
+      - path: group5/joint1/joint8
+        weight: 1
+      - path: group5/joint1/transform1
+        weight: 1
+      - path: group5/joint1/transform1/joint19
+        weight: 1
+      - path: group5/joint1/transform2
+        weight: 1
+      - path: group5/joint1/transform2/joint19 1
+        weight: 1
+      - path: group5/joint1/transform3
+        weight: 1
+      - path: group5/joint1/transform3/Mouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ying_Wu_Yu ZhaYan
+      takeName: Take 001
+      firstFrame: 14
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asd4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/joint1
+        weight: 1
+      - path: group5/joint1/joint2
+        weight: 1
+      - path: group5/joint1/joint2/joint3
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: group5/joint1/joint2/joint14
+        weight: 1
+      - path: group5/joint1/joint2/joint14/joint15
+        weight: 1
+      - path: group5/joint1/joint2/joint17
+        weight: 1
+      - path: group5/joint1/joint2/joint17/joint18
+        weight: 1
+      - path: group5/joint1/joint8
+        weight: 1
+      - path: group5/joint1/transform1
+        weight: 1
+      - path: group5/joint1/transform1/joint19
+        weight: 1
+      - path: group5/joint1/transform2
+        weight: 1
+      - path: group5/joint1/transform2/joint19 1
+        weight: 1
+      - path: group5/joint1/transform3
+        weight: 1
+      - path: group5/joint1/transform3/Mouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ying_Wu_Yu BiaoYan
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asd4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/joint1
+        weight: 1
+      - path: group5/joint1/joint2
+        weight: 1
+      - path: group5/joint1/joint2/joint3
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: group5/joint1/joint2/joint14
+        weight: 1
+      - path: group5/joint1/joint2/joint14/joint15
+        weight: 1
+      - path: group5/joint1/joint2/joint17
+        weight: 1
+      - path: group5/joint1/joint2/joint17/joint18
+        weight: 1
+      - path: group5/joint1/joint8
+        weight: 1
+      - path: group5/joint1/transform1
+        weight: 1
+      - path: group5/joint1/transform1/joint19
+        weight: 1
+      - path: group5/joint1/transform2
+        weight: 1
+      - path: group5/joint1/transform2/joint19 1
+        weight: 1
+      - path: group5/joint1/transform3
+        weight: 1
+      - path: group5/joint1/transform3/Mouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ying_Wu_Yu ShouJi
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asd4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/joint1
+        weight: 1
+      - path: group5/joint1/joint2
+        weight: 1
+      - path: group5/joint1/joint2/joint3
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: group5/joint1/joint2/joint14
+        weight: 1
+      - path: group5/joint1/joint2/joint14/joint15
+        weight: 1
+      - path: group5/joint1/joint2/joint17
+        weight: 1
+      - path: group5/joint1/joint2/joint17/joint18
+        weight: 1
+      - path: group5/joint1/joint8
+        weight: 1
+      - path: group5/joint1/transform1
+        weight: 1
+      - path: group5/joint1/transform1/joint19
+        weight: 1
+      - path: group5/joint1/transform2
+        weight: 1
+      - path: group5/joint1/transform2/joint19 1
+        weight: 1
+      - path: group5/joint1/transform3
+        weight: 1
+      - path: group5/joint1/transform3/Mouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ying_Wu_Yu SiWang
+      takeName: Take 001
+      firstFrame: 94
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asd4
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/joint1
+        weight: 1
+      - path: group5/joint1/joint2
+        weight: 1
+      - path: group5/joint1/joint2/joint3
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: group5/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: group5/joint1/joint2/joint14
+        weight: 1
+      - path: group5/joint1/joint2/joint14/joint15
+        weight: 1
+      - path: group5/joint1/joint2/joint17
+        weight: 1
+      - path: group5/joint1/joint2/joint17/joint18
+        weight: 1
+      - path: group5/joint1/joint8
+        weight: 1
+      - path: group5/joint1/transform1
+        weight: 1
+      - path: group5/joint1/transform1/joint19
+        weight: 1
+      - path: group5/joint1/transform2
+        weight: 1
+      - path: group5/joint1/transform2/joint19 1
+        weight: 1
+      - path: group5/joint1/transform3
+        weight: 1
+      - path: group5/joint1/transform3/Mouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

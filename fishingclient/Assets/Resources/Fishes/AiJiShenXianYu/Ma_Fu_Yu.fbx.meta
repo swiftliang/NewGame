@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 2e09134594be9c74c86241e1d63d67bd
+timeCreated: 1476154490
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group4
+    100002: group6
+    100004: group7
+    100006: joint1
+    100008: joint10
+    100010: joint11
+    100012: joint13
+    100014: joint14
+    100016: joint16
+    100018: joint17
+    100020: joint18
+    100022: joint19
+    100024: joint2
+    100026: joint20
+    100028: joint21
+    100030: joint22
+    100032: joint23
+    100034: joint24
+    100036: joint25
+    100038: joint26
+    100040: joint26 1
+    100042: joint3
+    100044: joint4
+    100046: joint5
+    100048: joint7
+    100050: joint9
+    100052: left
+    100054: //RootNode
+    100056: Ma_Fu_Yu2
+    100058: Mouth
+    100060: transform1
+    400000: group4
+    400002: group6
+    400004: group7
+    400006: joint1
+    400008: joint10
+    400010: joint11
+    400012: joint13
+    400014: joint14
+    400016: joint16
+    400018: joint17
+    400020: joint18
+    400022: joint19
+    400024: joint2
+    400026: joint20
+    400028: joint21
+    400030: joint22
+    400032: joint23
+    400034: joint24
+    400036: joint25
+    400038: joint26
+    400040: joint26 1
+    400042: joint3
+    400044: joint4
+    400046: joint5
+    400048: joint7
+    400050: joint9
+    400052: left
+    400054: //RootNode
+    400056: Ma_Fu_Yu2
+    400058: Mouth
+    400060: transform1
+    4300000: Ma_Fu_Yu2
+    7400000: Ma_Fu_Yu You
+    7400002: Ma_Fu_Yu ZhaYan
+    7400004: Ma_Fu_Yu BiaoYan
+    7400006: Ma_Fu_Yu ShouJi
+    7400008: Ma_Fu_Yu SiWang
+    9500000: //RootNode
+    13700000: Ma_Fu_Yu2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - group4/joint1/transform1/Mouth
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ma_Fu_Yu You
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/joint1
+        weight: 1
+      - path: group4/joint1/group6
+        weight: 1
+      - path: group4/joint1/group6/joint26
+        weight: 1
+      - path: group4/joint1/group7
+        weight: 1
+      - path: group4/joint1/group7/joint26 1
+        weight: 1
+      - path: group4/joint1/joint2
+        weight: 1
+      - path: group4/joint1/joint2/joint3
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group4/joint1/joint2/joint9
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10/joint11
+        weight: 1
+      - path: group4/joint1/joint2/joint13
+        weight: 1
+      - path: group4/joint1/joint2/joint13/joint14
+        weight: 1
+      - path: group4/joint1/joint7
+        weight: 1
+      - path: group4/joint1/joint16
+        weight: 1
+      - path: group4/joint1/joint16/joint17
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: group4/joint1/joint21
+        weight: 1
+      - path: group4/joint1/joint21/joint22
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: group4/joint1/transform1
+        weight: 1
+      - path: group4/joint1/transform1/Mouth
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Ma_Fu_Yu2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ma_Fu_Yu ZhaYan
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/joint1
+        weight: 1
+      - path: group4/joint1/group6
+        weight: 1
+      - path: group4/joint1/group6/joint26
+        weight: 1
+      - path: group4/joint1/group7
+        weight: 1
+      - path: group4/joint1/group7/joint26 1
+        weight: 1
+      - path: group4/joint1/joint2
+        weight: 1
+      - path: group4/joint1/joint2/joint3
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group4/joint1/joint2/joint9
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10/joint11
+        weight: 1
+      - path: group4/joint1/joint2/joint13
+        weight: 1
+      - path: group4/joint1/joint2/joint13/joint14
+        weight: 1
+      - path: group4/joint1/joint7
+        weight: 1
+      - path: group4/joint1/joint16
+        weight: 1
+      - path: group4/joint1/joint16/joint17
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: group4/joint1/joint21
+        weight: 1
+      - path: group4/joint1/joint21/joint22
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: group4/joint1/transform1
+        weight: 1
+      - path: group4/joint1/transform1/Mouth
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Ma_Fu_Yu2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ma_Fu_Yu BiaoYan
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/joint1
+        weight: 1
+      - path: group4/joint1/group6
+        weight: 1
+      - path: group4/joint1/group6/joint26
+        weight: 1
+      - path: group4/joint1/group7
+        weight: 1
+      - path: group4/joint1/group7/joint26 1
+        weight: 1
+      - path: group4/joint1/joint2
+        weight: 1
+      - path: group4/joint1/joint2/joint3
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group4/joint1/joint2/joint9
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10/joint11
+        weight: 1
+      - path: group4/joint1/joint2/joint13
+        weight: 1
+      - path: group4/joint1/joint2/joint13/joint14
+        weight: 1
+      - path: group4/joint1/joint7
+        weight: 1
+      - path: group4/joint1/joint16
+        weight: 1
+      - path: group4/joint1/joint16/joint17
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: group4/joint1/joint21
+        weight: 1
+      - path: group4/joint1/joint21/joint22
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: group4/joint1/transform1
+        weight: 1
+      - path: group4/joint1/transform1/Mouth
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Ma_Fu_Yu2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ma_Fu_Yu ShouJi
+      takeName: Take 001
+      firstFrame: 52
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/joint1
+        weight: 1
+      - path: group4/joint1/group6
+        weight: 1
+      - path: group4/joint1/group6/joint26
+        weight: 1
+      - path: group4/joint1/group7
+        weight: 1
+      - path: group4/joint1/group7/joint26 1
+        weight: 1
+      - path: group4/joint1/joint2
+        weight: 1
+      - path: group4/joint1/joint2/joint3
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group4/joint1/joint2/joint9
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10/joint11
+        weight: 1
+      - path: group4/joint1/joint2/joint13
+        weight: 1
+      - path: group4/joint1/joint2/joint13/joint14
+        weight: 1
+      - path: group4/joint1/joint7
+        weight: 1
+      - path: group4/joint1/joint16
+        weight: 1
+      - path: group4/joint1/joint16/joint17
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: group4/joint1/joint21
+        weight: 1
+      - path: group4/joint1/joint21/joint22
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: group4/joint1/transform1
+        weight: 1
+      - path: group4/joint1/transform1/Mouth
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Ma_Fu_Yu2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Ma_Fu_Yu SiWang
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/joint1
+        weight: 1
+      - path: group4/joint1/group6
+        weight: 1
+      - path: group4/joint1/group6/joint26
+        weight: 1
+      - path: group4/joint1/group7
+        weight: 1
+      - path: group4/joint1/group7/joint26 1
+        weight: 1
+      - path: group4/joint1/joint2
+        weight: 1
+      - path: group4/joint1/joint2/joint3
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: group4/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: group4/joint1/joint2/joint9
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10
+        weight: 1
+      - path: group4/joint1/joint2/joint9/joint10/joint11
+        weight: 1
+      - path: group4/joint1/joint2/joint13
+        weight: 1
+      - path: group4/joint1/joint2/joint13/joint14
+        weight: 1
+      - path: group4/joint1/joint7
+        weight: 1
+      - path: group4/joint1/joint16
+        weight: 1
+      - path: group4/joint1/joint16/joint17
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: group4/joint1/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: group4/joint1/joint21
+        weight: 1
+      - path: group4/joint1/joint21/joint22
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: group4/joint1/joint21/joint22/joint23/joint24/joint25
+        weight: 1
+      - path: group4/joint1/transform1
+        weight: 1
+      - path: group4/joint1/transform1/Mouth
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Ma_Fu_Yu2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.55
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

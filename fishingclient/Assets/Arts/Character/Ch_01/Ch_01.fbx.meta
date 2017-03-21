@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 06d7d4975128c4b4eb90460a4fc21f30
+timeCreated: 1481707343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: __polySurface3
+    100002: //RootNode
+    100004: RenWu2:group1
+    100006: RenWu2:joint1
+    100008: RenWu2:joint10
+    100010: RenWu2:joint11
+    100012: RenWu2:joint12
+    100014: RenWu2:joint13
+    100016: RenWu2:joint14
+    100018: RenWu2:joint15
+    100020: RenWu2:joint16
+    100022: RenWu2:joint17
+    100024: RenWu2:joint18
+    100026: RenWu2:joint19
+    100028: RenWu2:joint2
+    100030: RenWu2:joint20
+    100032: RenWu2:joint25
+    100034: RenWu2:joint26
+    100036: RenWu2:joint27
+    100038: RenWu2:joint28
+    100040: RenWu2:joint29
+    100042: RenWu2:joint3
+    100044: RenWu2:joint30
+    100046: RenWu2:joint4
+    100048: RenWu2:joint5
+    100050: RenWu2:joint56
+    100052: RenWu2:joint57
+    100054: RenWu2:joint58
+    100056: RenWu2:joint59
+    100058: RenWu2:joint6
+    100060: RenWu2:joint60
+    100062: RenWu2:joint61
+    100064: RenWu2:joint62
+    100066: RenWu2:joint63
+    100068: RenWu2:joint64
+    100070: RenWu2:joint65
+    100072: RenWu2:joint66
+    100074: RenWu2:joint67
+    100076: RenWu2:joint68
+    100078: RenWu2:joint69
+    100080: RenWu2:joint7
+    100082: RenWu2:joint70
+    100084: RenWu2:joint8
+    100086: RenWu2:joint9
+    100088: RenWu2:Pole
+    400000: __polySurface3
+    400002: //RootNode
+    400004: RenWu2:group1
+    400006: RenWu2:joint1
+    400008: RenWu2:joint10
+    400010: RenWu2:joint11
+    400012: RenWu2:joint12
+    400014: RenWu2:joint13
+    400016: RenWu2:joint14
+    400018: RenWu2:joint15
+    400020: RenWu2:joint16
+    400022: RenWu2:joint17
+    400024: RenWu2:joint18
+    400026: RenWu2:joint19
+    400028: RenWu2:joint2
+    400030: RenWu2:joint20
+    400032: RenWu2:joint25
+    400034: RenWu2:joint26
+    400036: RenWu2:joint27
+    400038: RenWu2:joint28
+    400040: RenWu2:joint29
+    400042: RenWu2:joint3
+    400044: RenWu2:joint30
+    400046: RenWu2:joint4
+    400048: RenWu2:joint5
+    400050: RenWu2:joint56
+    400052: RenWu2:joint57
+    400054: RenWu2:joint58
+    400056: RenWu2:joint59
+    400058: RenWu2:joint6
+    400060: RenWu2:joint60
+    400062: RenWu2:joint61
+    400064: RenWu2:joint62
+    400066: RenWu2:joint63
+    400068: RenWu2:joint64
+    400070: RenWu2:joint65
+    400072: RenWu2:joint66
+    400074: RenWu2:joint67
+    400076: RenWu2:joint68
+    400078: RenWu2:joint69
+    400080: RenWu2:joint7
+    400082: RenWu2:joint70
+    400084: RenWu2:joint8
+    400086: RenWu2:joint9
+    400088: RenWu2:Pole
+    4300000: __polySurface3
+    7400000: DaiJi
+    7400002: DaZhaoHu
+    7400004: ShuaiGan
+    7400006: ShouGan
+    9500000: //RootNode
+    13700000: __polySurface3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:Pole
+    clipAnimations:
+    - serializedVersion: 16
+      name: DaiJi
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: __polySurface3
+        weight: 1
+      - path: RenWu2:group1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4/RenWu2:joint5
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9/RenWu2:joint10
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15/RenWu2:joint16
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28/RenWu2:joint29
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57/RenWu2:joint58
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:Pole
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint30
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66/RenWu2:joint67
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69/RenWu2:joint70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DaZhaoHu
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: __polySurface3
+        weight: 1
+      - path: RenWu2:group1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4/RenWu2:joint5
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9/RenWu2:joint10
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15/RenWu2:joint16
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28/RenWu2:joint29
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57/RenWu2:joint58
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:Pole
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint30
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66/RenWu2:joint67
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69/RenWu2:joint70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShuaiGan
+      takeName: Take 001
+      firstFrame: 103
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: __polySurface3
+        weight: 1
+      - path: RenWu2:group1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4/RenWu2:joint5
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9/RenWu2:joint10
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15/RenWu2:joint16
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28/RenWu2:joint29
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57/RenWu2:joint58
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:Pole
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint30
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66/RenWu2:joint67
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69/RenWu2:joint70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShouGan
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: __polySurface3
+        weight: 1
+      - path: RenWu2:group1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint1/RenWu2:joint2/RenWu2:joint3/RenWu2:joint4/RenWu2:joint5
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint6/RenWu2:joint7/RenWu2:joint8/RenWu2:joint9/RenWu2:joint10
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint14/RenWu2:joint15/RenWu2:joint16
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint26/RenWu2:joint27/RenWu2:joint28/RenWu2:joint29
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:joint56/RenWu2:joint57/RenWu2:joint58
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint17/RenWu2:joint18/RenWu2:joint19/RenWu2:joint20/RenWu2:joint25/RenWu2:Pole
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint30
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint64/RenWu2:joint65/RenWu2:joint66/RenWu2:joint67
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69
+        weight: 1
+      - path: RenWu2:group1/RenWu2:joint11/RenWu2:joint12/RenWu2:joint13/RenWu2:joint59/RenWu2:joint60/RenWu2:joint61/RenWu2:joint62/RenWu2:joint63/RenWu2:joint68/RenWu2:joint69/RenWu2:joint70
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.28
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5 @@
+[{"sceneId":1,"path":"Scenes/Bg/BgTexture1"},
+{"sceneId":2,"path":"Scenes/Bg/BgTexture2"},
+{"sceneId":3,"path":"Scenes/Bg/BgTexture3"}
+]
+

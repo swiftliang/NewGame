@@ -1,0 +1,4 @@
+[{"size":1,"struggleTime":0,"backTime":1.5},
+{"size":2,"struggleTime":5,"backTime":2},
+{"size":3,"struggleTime":5,"backTime":2}
+]

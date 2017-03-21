@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 0b335389015636748b5e7bc7286b7eb8
+timeCreated: 1461832094
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PangXie:joint10
+    100004: PangXie:joint11
+    100006: PangXie:joint12
+    100008: PangXie:joint13
+    100010: PangXie:joint14
+    100012: PangXie:joint15
+    100014: PangXie:joint16
+    100016: PangXie:joint17
+    100018: PangXie:joint18
+    100020: PangXie:joint19
+    100022: PangXie:joint20
+    100024: PangXie:joint21
+    100026: PangXie:joint22
+    100028: PangXie:joint23
+    100030: PangXie:joint24
+    100032: PangXie:joint25
+    100034: PangXie:joint26
+    100036: PangXie:joint27
+    100038: PangXie:joint28
+    100040: PangXie:joint29
+    100042: PangXie:joint3
+    100044: PangXie:joint30
+    100046: PangXie:joint31
+    100048: PangXie:joint37
+    100050: PangXie:joint38
+    100052: PangXie:joint39
+    100054: PangXie:joint4
+    100056: PangXie:joint5
+    100058: PangXie:joint6
+    100060: PangXie:joint65
+    100062: PangXie:joint66
+    100064: PangXie:joint67
+    100066: PangXie:joint68
+    100068: PangXie:joint69
+    100070: PangXie:joint7
+    100072: PangXie:joint70
+    100074: PangXie:joint71
+    100076: PangXie:joint72
+    100078: PangXie:joint73
+    100080: PangXie:joint74
+    100082: PangXie:joint75
+    100084: PangXie:joint76
+    100086: PangXie:joint77
+    100088: PangXie:joint78
+    100090: PangXie:joint79
+    100092: PangXie:joint8
+    100094: PangXie:joint80
+    100096: PangXie:joint81
+    100098: PangXie:joint82
+    100100: PangXie:joint83
+    100102: PangXie:joint84
+    100104: PangXie:joint85
+    100106: PangXie:joint86
+    100108: PangXie:joint87
+    100110: PangXie:joint88
+    100112: PangXie:joint89
+    100114: PangXie:joint9
+    100116: PangXie:polySurface8
+    100118: Mouth
+    100120: PangXie:PangXie_new_polySurface8
+    400000: //RootNode
+    400002: PangXie:joint10
+    400004: PangXie:joint11
+    400006: PangXie:joint12
+    400008: PangXie:joint13
+    400010: PangXie:joint14
+    400012: PangXie:joint15
+    400014: PangXie:joint16
+    400016: PangXie:joint17
+    400018: PangXie:joint18
+    400020: PangXie:joint19
+    400022: PangXie:joint20
+    400024: PangXie:joint21
+    400026: PangXie:joint22
+    400028: PangXie:joint23
+    400030: PangXie:joint24
+    400032: PangXie:joint25
+    400034: PangXie:joint26
+    400036: PangXie:joint27
+    400038: PangXie:joint28
+    400040: PangXie:joint29
+    400042: PangXie:joint3
+    400044: PangXie:joint30
+    400046: PangXie:joint31
+    400048: PangXie:joint37
+    400050: PangXie:joint38
+    400052: PangXie:joint39
+    400054: PangXie:joint4
+    400056: PangXie:joint5
+    400058: PangXie:joint6
+    400060: PangXie:joint65
+    400062: PangXie:joint66
+    400064: PangXie:joint67
+    400066: PangXie:joint68
+    400068: PangXie:joint69
+    400070: PangXie:joint7
+    400072: PangXie:joint70
+    400074: PangXie:joint71
+    400076: PangXie:joint72
+    400078: PangXie:joint73
+    400080: PangXie:joint74
+    400082: PangXie:joint75
+    400084: PangXie:joint76
+    400086: PangXie:joint77
+    400088: PangXie:joint78
+    400090: PangXie:joint79
+    400092: PangXie:joint8
+    400094: PangXie:joint80
+    400096: PangXie:joint81
+    400098: PangXie:joint82
+    400100: PangXie:joint83
+    400102: PangXie:joint84
+    400104: PangXie:joint85
+    400106: PangXie:joint86
+    400108: PangXie:joint87
+    400110: PangXie:joint88
+    400112: PangXie:joint89
+    400114: PangXie:joint9
+    400116: PangXie:polySurface8
+    400118: Mouth
+    400120: PangXie:PangXie_new_polySurface8
+    4300000: PangXie:polySurface8
+    4300002: PangXie:PangXie_new_polySurface8
+    7400000: Left
+    7400002: Right
+    9500000: //RootNode
+    13700000: PangXie:polySurface8
+    13700002: PangXie:PangXie_new_polySurface8
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5/PangXie:joint6/Mouth
+    clipAnimations:
+    - serializedVersion: 16
+      name: Left
+      takeName: Take 001
+      firstFrame: 17
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PangXie:joint28
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5/PangXie:joint6
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5/PangXie:joint6/Mouth
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10/PangXie:joint11
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10/PangXie:joint11/PangXie:joint12
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15/PangXie:joint16
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15/PangXie:joint16/PangXie:joint17
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20/PangXie:joint21
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20/PangXie:joint21/PangXie:joint22
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25/PangXie:joint26
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25/PangXie:joint26/PangXie:joint27
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29/PangXie:joint30
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29/PangXie:joint30/PangXie:joint31
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37/PangXie:joint38
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37/PangXie:joint38/PangXie:joint39
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67/PangXie:joint68
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67/PangXie:joint68/PangXie:joint69
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72/PangXie:joint73
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72/PangXie:joint73/PangXie:joint74
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77/PangXie:joint78
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77/PangXie:joint78/PangXie:joint79
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82/PangXie:joint83
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82/PangXie:joint83/PangXie:joint84
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87/PangXie:joint88
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87/PangXie:joint88/PangXie:joint89
+        weight: 1
+      - path: PangXie:polySurface8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Right
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PangXie:joint28
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5/PangXie:joint6
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint3/PangXie:joint4/PangXie:joint5/PangXie:joint6/Mouth
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10/PangXie:joint11
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint8/PangXie:joint9/PangXie:joint10/PangXie:joint11/PangXie:joint12
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15/PangXie:joint16
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint13/PangXie:joint14/PangXie:joint15/PangXie:joint16/PangXie:joint17
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20/PangXie:joint21
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint18/PangXie:joint19/PangXie:joint20/PangXie:joint21/PangXie:joint22
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25/PangXie:joint26
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint23/PangXie:joint24/PangXie:joint25/PangXie:joint26/PangXie:joint27
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29/PangXie:joint30
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint29/PangXie:joint30/PangXie:joint31
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37/PangXie:joint38
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint37/PangXie:joint38/PangXie:joint39
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67/PangXie:joint68
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint65/PangXie:joint66/PangXie:joint67/PangXie:joint68/PangXie:joint69
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72/PangXie:joint73
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint70/PangXie:joint71/PangXie:joint72/PangXie:joint73/PangXie:joint74
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77/PangXie:joint78
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint75/PangXie:joint76/PangXie:joint77/PangXie:joint78/PangXie:joint79
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82/PangXie:joint83
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint80/PangXie:joint81/PangXie:joint82/PangXie:joint83/PangXie:joint84
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87/PangXie:joint88
+        weight: 1
+      - path: PangXie:joint28/PangXie:joint85/PangXie:joint86/PangXie:joint87/PangXie:joint88/PangXie:joint89
+        weight: 1
+      - path: PangXie:polySurface8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
