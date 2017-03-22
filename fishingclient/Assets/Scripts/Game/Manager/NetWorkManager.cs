@@ -238,7 +238,7 @@ namespace Fishing
             bIsDone = false;
 
             JsonObject msg = new JsonObject();
-            msg["userName"] = strName;
+            msg["uid"] = 1;
             msg["password"] = pwd;
             Message message = null;
             //"MessageEnterGame
@@ -390,19 +390,19 @@ namespace Fishing
         #endregion Others
 
         #region Requests
-        //public void reqSelectMode(string strMode, Action<SelectModeReturn> callback)
-        //{
-        //    JsonObject msg = new JsonObject();
-        //    msg["mode"] = strMode;
-        //    _connection.Request(RequestMsg.REQUEST_SELECTMODE, msg, retMsg_ =>
-        //    {
-        //        SelectModeReturn retMsg = JsonReader.Deserialize<SelectModeReturn>(retMsg_.rawString);
-        //        if(callback != null)
-        //        {
-        //            callback(retMsg);
-        //        }
-        //    });
-        //}
+        public void reqSelectMode(string strMode, Action<SelectModeReturn> callback)
+        {
+            JsonObject msg = new JsonObject();
+            msg["mode"] = strMode;
+            _connection.Request(RequestMsg.REQUEST_SELECTMODE, msg, retMsg_ =>
+            {
+                SelectModeReturn retMsg = JsonReader.Deserialize<SelectModeReturn>(retMsg_.rawString);
+                if (callback != null)
+                {
+                    callback(retMsg);
+                }
+            });
+        }
 
         public void reqGetPageTables(int nPage, Action<MessageGetPageTables> callback)
         {

@@ -12,8 +12,8 @@ var GlobalData = function(app) {
   this.players = {};                          //玩家信息map
   //this.tables = {'88': {tableId: 88, left: null, right: null}, '99': {tableId: 99, left: null, right: null}};
   this.tables = {};
-  for(var i = 1; i < 100; i++) {
-    this.tables[i] = {tableId: i, left: null, right: null};
+  for(var i = 1; i < 10; i++) {
+    this.tables[i] = {tableId: i, left: null, right: null, rate: 0, tableName: 'test', minGold: 0, sceneId: 0};
   }
   //this.freeTables = {'88': {tableId: 88, left: null, right: null}, '99': {tableId: 99, left: null, right: null}};                     //免费场桌子信息map
   //this.chargeTables = {};                     //收费场桌子信息map

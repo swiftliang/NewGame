@@ -4,6 +4,10 @@
 	"private": false,
 	"dependencies": {
 		"pomelo": "~1.2.3",
-		"crc": "0.2.0"
+	  	"generic-pool": "2.4.1",
+	  	"mysql": "^2.13.0",
+	  	"log4js": "0.6.33",
+		"crc": "0.2.0",
+	  	"async": ">=0.0.1"
 	}
 }
