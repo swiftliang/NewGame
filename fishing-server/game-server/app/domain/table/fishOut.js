@@ -76,8 +76,8 @@ fishOutPto.getFishOut = function() {
 
   // 下层出鱼数据
   if(lowerRandom > (lowerBase -= 100)) {
-    fishType = 2;
-    pathId = 5;
+    fishType = 19;
+    pathId = 30;
     expireTime = 12000;
     canCatch = false;
     fishList.push({fishType: fishType, pathId: pathId, expireTime: expireTime, freeTime: freeTime, canCatch: canCatch, escapePlace: escapePlace});

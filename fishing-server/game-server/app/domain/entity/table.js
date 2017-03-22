@@ -64,6 +64,8 @@ function addFish(self, createTime) {
     // 增加鱼的生成时间(相对)和id
     fish.createTime= createTime;
     fish.fishId = getFishId(self);
+    fish.escapePlace = 0;
+    fish.lottery = 1;
 
     // 缓存本桌出鱼数据
     if(fishData) {
