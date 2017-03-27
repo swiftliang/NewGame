@@ -1,0 +1,1 @@
+[2017-03-27 09:52:11.644] [ERROR] logger - selectUserinfo error: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'36.7.151.35' (using password: YES)
