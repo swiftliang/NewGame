@@ -24,10 +24,10 @@ namespace Fishing.Net
         public int minGold;
         public int sceneId;
     }
-    //public class SelectModeReturn : MessageBase
-    //{
-    //    public List<TableInfo> tables;
-    //}
+    public class SelectModeReturn : MessageBase
+    {
+        public List<TableInfo> tables;
+    }
     public class MessageGetPageTables : MessageBase
     {
         public int page;

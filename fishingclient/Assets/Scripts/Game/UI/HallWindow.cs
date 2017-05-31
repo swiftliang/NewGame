@@ -95,13 +95,13 @@ namespace Fishing.UI
             //If the page number passed in args is 0, it means that requesting table info of page is needed.
             if (args.GetAt<int>(0) == 0)
             {
-                NetWorkManager.Instance.reqGetPageTables(0, result =>
+                NetWorkManager.Instance.reqSelectMode("free", result =>
                 {
                     if (result.code == Constants.SUCCESS)
                     {
-                        _nPageNumber = result.page;
-                        _tableInfoList = result.pageData;
-                        _nAllPages = result.tableNum / NUMBER_OF_TABLE_PER_PAGE + 1;
+                        _nPageNumber = /*result.page*/0;
+                        _tableInfoList = /*result.pageData*/result.tables;
+                        _nAllPages = /*result.tableNum*/result.tables.Count / NUMBER_OF_TABLE_PER_PAGE + 1;
                         _pageNumSliderInit();
                         if (_nAllPages <= 10)
                             _sliderPageNum.value = _nPageNumber - 1;
@@ -128,7 +128,7 @@ namespace Fishing.UI
 
         public void UpDate()
         {
-            _fUnUpdatePeriod += Time.deltaTime;
+            /*_fUnUpdatePeriod += Time.deltaTime;
             if (_fUnUpdatePeriod > PERIOD_TO_UPDATE_PAGE)
             {
                 NetWorkManager.Instance.reqGetPageTables(_nPageNumber, result =>
@@ -140,7 +140,7 @@ namespace Fishing.UI
                     }
                 });
                 _fUnUpdatePeriod = 0;
-            }
+            }*/
         }
 
         public void OnSeat(int nTableId, string strTableName, int nTableRate, string pos)
